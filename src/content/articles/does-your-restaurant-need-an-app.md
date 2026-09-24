@@ -6,6 +6,9 @@ publishDate: 2026-09-14
 tags: [restaurant apps, customer loyalty, takeaway business, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "smartphone"
+cover: "../../assets/covers/does-your-restaurant-need-an-app.jpg"
+coverAlt: "Young people texting on smartphones using thumbs"
+coverCredit: "Photo: Tomwsulcer / wikimedia (CC0 1.0)"
 ---
 
 A branded app puts your restaurant's logo on a customer's home screen, right next to the marketplace apps. That's valuable, but only if people download it, keep it and use it. For some restaurants an app becomes a major source of repeat orders. For others it's an expensive icon nobody taps.

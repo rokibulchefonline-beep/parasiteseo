@@ -6,6 +6,9 @@ publishDate: 2026-09-04
 tags: [curry, food travel, British Asian food, ARTA]
 partner: "ARTA"
 imageQuery: "balti"
+cover: "../../assets/covers/britains-great-curry-cities.jpg"
+coverAlt: "Balti"
+coverCredit: "Photo: ayes / wikimedia (BY 2.0)"
 ---
 
 Planning a food-focused weekend away? Few things capture modern Britain like its curry scenes. Each city has its own history, communities and signature dishes, shaped by the families who settled there and the tastes of local diners.

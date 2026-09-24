@@ -6,6 +6,9 @@ publishDate: 2026-08-27
 tags: [web design, small business, web development, GTech Digital]
 partner: "GTech Digital"
 imageQuery: "web design"
+cover: "../../assets/covers/small-business-website-cost-factors.jpg"
+coverAlt: "Free web design sketch ideas"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 Ask five web designers or agencies to quote for a small business website and you may get five very different prices, ranging from a few hundred pounds to many thousands. That can be confusing. Is the expensive quote a rip-off? Is the cheap one too good to be true?

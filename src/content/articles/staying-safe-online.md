@@ -6,6 +6,9 @@ author: editorial-team
 publishDate: 2026-09-05
 tags: [cyber security, scams, how to]
 imageQuery: "padlock"
+cover: "../../assets/covers/staying-safe-online.jpg"
+coverAlt: "Solex 99 30 padlock with keys (DSCF2659)"
+coverCredit: "Photo: Trougnouf / wikimedia (BY 4.0)"
 ---
 
 You don't need to be a technology expert to protect yourself online. A few habits go a long way.

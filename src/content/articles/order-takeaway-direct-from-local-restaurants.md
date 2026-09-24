@@ -6,6 +6,9 @@ publishDate: 2026-09-23
 tags: [takeaway, ordering direct, local restaurants, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "food delivery"
+cover: "../../assets/covers/order-takeaway-direct-from-local-restaurants.jpg"
+coverAlt: "Blue scooter clipart, food delivery"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 When you order a takeaway, the restaurant rarely keeps everything you pay. Many large delivery marketplaces charge the restaurant a commission on each order, and small independents run on thin margins. On a busy Friday night, that commission can be the difference between making money and just breaking even.

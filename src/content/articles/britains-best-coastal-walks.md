@@ -6,6 +6,9 @@ author: priya-shah
 publishDate: 2026-09-02
 tags: [walking, coast, outdoors]
 imageQuery: "coastal path"
+cover: "../../assets/covers/britains-best-coastal-walks.jpg"
+coverAlt: "Ulleungdo Coastal Path - panoramio"
+coverCredit: "Photo: Raki_Man / wikimedia (BY 3.0)"
 ---
 
 The UK has a remarkably long and varied coastline, and much of it is open to walkers. The King Charles III England Coast Path, the Wales Coast Path and Scotland's many coastal routes make it easier than ever.

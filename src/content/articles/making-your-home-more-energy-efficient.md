@@ -6,6 +6,9 @@ author: editorial-team
 publishDate: 2026-09-08
 tags: [home, energy, money saving]
 imageQuery: "radiator"
+cover: "../../assets/covers/making-your-home-more-energy-efficient.jpg"
+coverAlt: "<div class='fn'> Signature de François-André Vincent sur la pétition demandant la radiation d'Elisabeth Vigée-Lebrun de la liste des émigrés.</div>"
+coverCredit: "Photo: Unknown / wikimedia (CC0 1.0)"
 ---
 
 As the nights draw in, small changes around the home can make a noticeable difference to comfort and bills.

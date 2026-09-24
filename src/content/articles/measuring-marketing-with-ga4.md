@@ -6,6 +6,9 @@ publishDate: 2026-08-17
 tags: [Google Analytics, GA4, marketing measurement, GTech Digital]
 partner: "GTech Digital"
 imageQuery: "analytics"
+cover: "../../assets/covers/measuring-marketing-with-ga4.jpg"
+coverAlt: "Office MacBook Laptop Charts Analytics"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 If you can't measure your marketing, you can't tell what's working and you can't improve it. **Google Analytics 4 (GA4)** is the free tool most businesses use to understand their website visitors: where they come from, what they do, and whether they become customers.

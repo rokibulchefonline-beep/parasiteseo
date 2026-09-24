@@ -6,6 +6,9 @@ publishDate: 2026-08-20
 tags: [British Asian food, curry, regional cuisine, ARTA]
 partner: "ARTA"
 imageQuery: "dosa"
+cover: "../../assets/covers/british-asian-cuisine-beyond-curry.jpg"
+coverAlt: "Dosa"
+coverCredit: "Photo: Roland / wikimedia (BY 2.0)"
 ---
 
 "Curry" is a single English word for an enormous range of cuisines. South Asia is home to well over a billion people, dozens of languages, and hundreds of distinct culinary traditions, shaped by geography, climate, religion and history.

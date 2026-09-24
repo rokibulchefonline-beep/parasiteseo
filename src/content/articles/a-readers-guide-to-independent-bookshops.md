@@ -7,6 +7,9 @@ publishDate: 2026-09-15
 tags: [books, bookshops, reading]
 location: Manchester
 imageQuery: "bookshop"
+cover: "../../assets/covers/a-readers-guide-to-independent-bookshops.jpg"
+coverAlt: "Bookshop"
+coverCredit: "Photo: Phillip Capper from Wellington, New Zealand / wikimedia (BY 2.0)"
 ---
 
 There is a particular pleasure in walking into an independent bookshop without knowing what you'll leave with. From tiny rooms stacked to the ceiling to spacious shops with cafés and event programmes, the UK's independents offer something no algorithm can.

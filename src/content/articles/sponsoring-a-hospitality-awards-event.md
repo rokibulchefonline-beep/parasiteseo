@@ -6,6 +6,9 @@ publishDate: 2026-08-16
 tags: [sponsorship, B2B marketing, hospitality, ARTA]
 partner: "ARTA"
 imageQuery: "conference"
+cover: "../../assets/covers/sponsoring-a-hospitality-awards-event.jpg"
+coverAlt: "Putin-Xi press conference (2023)"
+coverCredit: "Photo: Presidential Executive Office of Russia / wikimedia (BY 4.0)"
 ---
 
 If your business sells to restaurants, such as food and drink suppliers, kitchen equipment makers, technology providers, packaging companies or financial services, reaching owners and decision-makers can be difficult. Restaurant owners are busy, often working evenings and weekends, and bombarded with sales calls.

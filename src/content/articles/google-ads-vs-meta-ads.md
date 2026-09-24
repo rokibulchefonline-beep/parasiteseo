@@ -6,6 +6,9 @@ publishDate: 2026-09-14
 tags: [Google Ads, Meta Ads, PPC, digital marketing, GTech Digital]
 partner: "GTech Digital"
 imageQuery: "digital marketing"
+cover: "../../assets/covers/google-ads-vs-meta-ads.jpg"
+coverAlt: "Digital Marketing, Las Vegas, United"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 Paid advertising can bring customers to your business quickly, but only if you choose the right platform and set it up properly. Two options dominate for most UK small businesses: **Google Ads** and **Meta Ads** (Facebook and Instagram).

@@ -6,6 +6,9 @@ publishDate: 2026-08-29
 tags: [ARTA, awards, restaurant marketing, food hygiene]
 partner: "ARTA"
 imageQuery: "restaurant interior"
+cover: "../../assets/covers/preparing-your-restaurant-for-awards-season.jpg"
+coverAlt: "Free modern restaurant interior image"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 Awards that combine public votes with independent measures reward restaurants that get the basics right every day, not just in the weeks before voting opens. But a little preparation can help your restaurant show its best when awards season comes round.

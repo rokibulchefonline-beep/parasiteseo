@@ -6,6 +6,9 @@ publishDate: 2026-08-24
 tags: [ARTA, awards, events, hospitality]
 partner: "ARTA"
 imageQuery: "banquet"
+cover: "../../assets/covers/arta-grand-final-what-to-expect.jpg"
+coverAlt: "Assyrian Relief of the Banquet of Ashurbanipal From Nineveh Gypsum N Palace British Museum 01"
+coverCredit: "Photo: Allan Gluck / wikimedia (BY 4.0)"
 ---
 
 After months of public voting and assessment, the **Asian Restaurant & Takeaway Awards (ARTA)** reach their climax at the **Grand Final**, one of the biggest nights in the British Asian hospitality calendar.

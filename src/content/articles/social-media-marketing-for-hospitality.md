@@ -6,6 +6,9 @@ publishDate: 2026-08-23
 tags: [social media, restaurant marketing, hospitality, GTech Digital]
 partner: "GTech Digital"
 imageQuery: "food photography"
+cover: "../../assets/covers/social-media-marketing-for-hospitality.jpg"
+coverAlt: "Juicy beef burger food photography"
+coverCredit: "Photo: Jakub Kapusnak / rawpixel (CC0 1.0)"
 ---
 
 Food is one of the most shared subjects on social media, which gives restaurants, cafés and takeaways a natural advantage. A sizzling dish, a perfectly layered biryani or a chef tossing naan in the tandoor can stop people mid-scroll.

@@ -6,6 +6,9 @@ publishDate: 2026-09-23
 tags: [SEO, small business, digital marketing, GTech Digital]
 partner: "GTech Digital"
 imageQuery: "google search"
+cover: "../../assets/covers/seo-basics-for-uk-small-businesses.jpg"
+coverAlt: "Google search Samsung tablet screen"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 Search engine optimisation (SEO) can sound technical, jargon-heavy and a little mysterious. At its heart, though, it's simple: **making it easy for search engines, and the people using them, to understand what your business offers and why you're a good choice.**
