@@ -19,5 +19,11 @@ export default defineConfig({
   output: 'static',
   trailingSlash: 'ignore',
   build: { format: 'directory' },
-  integrations: [sitemap({ i18n: { defaultLocale: 'en', locales: { en: 'en-GB' } } })],
+  integrations: [
+    sitemap({
+      i18n: { defaultLocale: 'en', locales: { en: 'en-GB' } },
+      // Leave out pages that are noindex or have no content of their own.
+      filter: (page) => !/\/(thanks|search)\/$/.test(page),
+    }),
+  ],
 });
