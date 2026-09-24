@@ -7,7 +7,7 @@ tags: [estate agents, selling property, lettings, Salik & Co]
 partner: "Salik & Co"
 imageQuery: "london houses"
 cover: "../../assets/covers/independent-vs-chain-estate-agent.jpg"
-coverAlt: "Apartment chimney, London, United Kingdom"
+coverAlt: "A row of red-brick Victorian terraced houses in London"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

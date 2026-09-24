@@ -7,7 +7,7 @@ tags: [food safety, leftovers, food waste, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "lunch box"
 cover: "../../assets/covers/storing-and-reheating-takeaway-leftovers.jpg"
-coverAlt: "Halal Lunch box of WC Asia Contributor Day"
+coverAlt: "A takeaway meal box with rice, stir-fried dishes and a dipping sauce"
 coverCredit: "Photo: Raju Alam / wordpress (CC0 1.0)"
 ---
 

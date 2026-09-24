@@ -7,7 +7,7 @@ tags: [Google Partner, Google Ads, digital marketing agencies, GTech Digital]
 partner: "GTech Digital"
 imageQuery: "computer office"
 cover: "../../assets/covers/what-google-partner-badge-means.jpg"
-coverAlt: "Free computer office keyboard image"
+coverAlt: "A computer keyboard next to a notepad with a checklist"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

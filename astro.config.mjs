@@ -10,7 +10,9 @@ const site =
   process.env.URL || // Netlify
   (process.env.VERCEL_PROJECT_PRODUCTION_URL && `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`) || // Vercel
   process.env.CF_PAGES_URL || // Cloudflare Pages
-  'https://www.example.co.uk';
+  // Current live address (Cloudflare Workers). Change this, or set SITE_URL,
+  // when a custom domain is connected.
+  'https://parasiteseo.rokibul-chefonline.workers.dev';
 
 export default defineConfig({
   site,
