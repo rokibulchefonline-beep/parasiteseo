@@ -7,6 +7,9 @@ location: London
 tags: [selling property, East London, estate agents, Salik & Co]
 partner: "Salik & Co"
 imageQuery: "london apartment building exterior"
+cover: "../../assets/covers/selling-a-flat-in-east-london-step-by-step.jpg"
+coverAlt: "St Ermin's Hotel, London"
+coverCredit: "Photo: John K Thorne / wikimedia (BY 2.0)"
 ---
 
 Selling a flat in East London can move quickly in the right market, but flats, and especially leasehold flats, come with extra paperwork that can slow things down if you're not prepared. Knowing what to expect at each stage helps you avoid delays and fall-throughs.

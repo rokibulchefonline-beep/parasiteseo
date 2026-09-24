@@ -6,6 +6,9 @@ publishDate: 2026-08-21
 tags: [operations, kitchen management, takeaway business, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "busy restaurant kitchen chefs cooking"
+cover: "../../assets/covers/managing-the-friday-night-rush.jpg"
+coverAlt: "Kitchen setup showcasing grilling equipment and cooking tools at a busy restaurant undefined"
+coverCredit: "Photo: Shixart1985 / wikimedia (BY 2.0)"
 ---
 
 Friday and Saturday evenings can make or break a takeaway's week. When dine-in customers, phone orders, walk-ins and online orders all peak at once, a kitchen without a plan can quickly descend into chaos: late deliveries, wrong orders, stressed staff and angry reviews.

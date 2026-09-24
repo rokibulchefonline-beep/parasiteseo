@@ -7,6 +7,9 @@ location: London
 tags: [landlords, HMO, licensing, London, Salik & Co]
 partner: "Salik & Co"
 imageQuery: "london terraced houses street"
+cover: "../../assets/covers/hmo-and-property-licensing-london.jpg"
+coverAlt: "231-243 Baker Street London (6448187817)"
+coverCredit: "Photo: Elliott Brown from Birmingham, United Kingdom / wikimedia (BY 2.0)"
 ---
 
 Property licensing is one of the areas where London landlords most often get caught out. The rules vary from borough to borough, and sometimes from ward to ward within the same borough. Schemes start, end and change regularly. And the penalties for letting a property without a required licence can be severe.

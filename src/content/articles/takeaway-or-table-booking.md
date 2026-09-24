@@ -6,6 +6,9 @@ publishDate: 2026-09-19
 tags: [restaurants, table booking, takeaway, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "restaurant table dinner evening"
+cover: "../../assets/covers/takeaway-or-table-booking.jpg"
+coverAlt: "Restaurant table dinner evening"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 Some evenings call for a candlelit table and someone else doing the washing up. Others call for a sofa, a blanket and a film. Most of the time the choice between eating out and ordering in comes down to mood, but thinking it through a little can make either option much better.

@@ -6,6 +6,9 @@ publishDate: 2026-08-25
 tags: [menu design, restaurant profit, online ordering, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "chef plating food restaurant kitchen"
+cover: "../../assets/covers/menu-engineering-for-online-menus.jpg"
+coverAlt: "Free chef preparing order image"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 Your menu is your most important sales tool. Online, it does the job of a waiter: suggesting, describing and guiding choices. **Menu engineering** means designing your menu so customers easily find what they want and naturally choose dishes that are good for your business.

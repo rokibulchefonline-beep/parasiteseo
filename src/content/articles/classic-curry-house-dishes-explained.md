@@ -6,6 +6,9 @@ publishDate: 2026-09-03
 tags: [curry, british asian food, takeaway, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "chicken tikka masala naan"
+cover: "../../assets/covers/classic-curry-house-dishes-explained.jpg"
+coverAlt: "Chicken Tikka Masala-01"
+coverCredit: "Photo: hellosputnik / wikimedia (BY 2.0)"
 ---
 
 The British curry house menu is a cuisine of its own. It was shaped by Bangladeshi, Pakistani and Indian cooks and by generations of British diners, and much of it would be unfamiliar in Dhaka, Karachi or Delhi. Yet it has become part of the national diet.

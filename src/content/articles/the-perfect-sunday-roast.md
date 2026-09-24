@@ -7,6 +7,9 @@ publishDate: 2026-09-13
 tags: [recipes, sunday roast, british food]
 location: Bristol
 imageQuery: "sunday roast beef yorkshire pudding"
+cover: "../../assets/covers/the-perfect-sunday-roast.jpg"
+coverAlt: "Sunday roast beef yorkshire pudding"
+coverCredit: "Photo: by robbie jim / wikimedia (BY 2.0)"
 ---
 
 The Sunday roast is less a recipe than a juggling act. Get the timings right and everything else follows.

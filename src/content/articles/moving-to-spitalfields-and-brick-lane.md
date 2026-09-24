@@ -7,6 +7,9 @@ location: London
 tags: [area guide, Brick Lane, Spitalfields, East London, Salik & Co]
 partner: "Salik & Co"
 imageQuery: "Brick Lane London street art"
+cover: "../../assets/covers/moving-to-spitalfields-and-brick-lane.jpg"
+coverAlt: "Brick Lane. London, UK -"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 Few London neighbourhoods have as much character as Spitalfields and Brick Lane. For centuries this corner of East London, on the edge of the City, has welcomed new communities, and each has left its mark on the streets, the buildings and the food.
