@@ -3,6 +3,7 @@ import { Image } from 'astro:assets';
 import { render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
+import RecentNews from '../../components/RecentNews.astro';
 import { POLICIES, SITE } from '../../config';
 import {
   articleUrl,
@@ -26,8 +27,8 @@ interface Props {
 
 const { article, articles } = Astro.props;
 const { data } = article;
-const { Content, headings } = await render(article);
-const toc = headings.filter((h) => h.depth === 2 && h.text !== 'The bottom line');
+const { Content } = await render(article);
+const recent = articles.filter((a) => a.id !== article.id).slice(0, 5);
 const words = (article.body ?? '').trim().split(/\s+/).length;
 const errorMail = `mailto:${SITE.email}?subject=${encodeURIComponent(`Correction: ${data.title}`)}`;
 const category = getCategory(data.category);
@@ -87,7 +88,8 @@ const jsonLd = [
   modifiedTime={data.updatedDate}
   jsonLd={jsonLd}
 >
-  <article class="wrap article">
+  <div class="wrap article-layout">
+  <article class="article">
     <header class="article-head">
       <nav class="crumbs meta" aria-label="Breadcrumb">
         <a href="/">Home</a> / <a href={`/category/${category.slug}/`}>{category.name}</a>
@@ -122,7 +124,7 @@ const jsonLd = [
     {
       data.cover && (
         <figure class="hero">
-          <Image src={data.cover} alt={data.coverAlt ?? ''} widths={[800, 1200, 1600]} sizes="(min-width: 1200px) 1200px, 100vw" loading="eager" />
+          <Image src={data.cover} alt={data.coverAlt ?? ''} widths={[800, 1200, 1600]} sizes="(min-width: 1000px) 800px, 100vw" loading="eager" />
           {(data.coverAlt || data.coverCredit) && (
             <figcaption class="meta">
               {data.coverAlt}
@@ -130,21 +132,6 @@ const jsonLd = [
             </figcaption>
           )}
         </figure>
-      )
-    }
-
-    {
-      toc.length >= 4 && (
-        <nav class="toc" aria-labelledby="toc-title">
-          <p id="toc-title" class="kicker">In this article</p>
-          <ol>
-            {toc.map((h) => (
-              <li>
-                <a href={`#${h.slug}`}>{h.text}</a>
-              </li>
-            ))}
-          </ol>
-        </nav>
       )
     }
 
@@ -181,6 +168,11 @@ const jsonLd = [
       </div>
     </aside>
   </article>
+
+  <aside class="sidebar" aria-label="Recent news">
+    <RecentNews articles={recent} />
+  </aside>
+  </div>
 
   {
     related.length > 0 && (
@@ -252,29 +244,20 @@ const jsonLd = [
     border-radius: 99px;
     padding: 0.2rem 0.75rem;
   }
-  .toc {
-    max-width: var(--measure);
-    margin-top: 2rem;
-    padding: 1rem 1.25rem;
-    background: var(--surface);
-    border: 1px solid var(--rule);
-    border-radius: 6px;
-  }
-  .toc p {
-    margin: 0 0 0.5rem;
-  }
-  .toc ol {
-    margin: 0;
-    padding-left: 1.25rem;
+  .article-layout {
     display: grid;
-    gap: 0.3rem;
-    font-size: 0.95rem;
+    gap: 3rem;
   }
-  .toc a {
-    text-decoration: none;
-  }
-  .toc a:hover {
-    text-decoration: underline;
+  @media (min-width: 1000px) {
+    .article-layout {
+      grid-template-columns: minmax(0, 1fr) 320px;
+      align-items: start;
+    }
+    .sidebar {
+      position: sticky;
+      top: 64px;
+      padding-top: 2rem;
+    }
   }
   .trust-box {
     max-width: 960px;
@@ -287,7 +270,7 @@ const jsonLd = [
     border-top: 3px solid var(--accent);
     border-radius: 6px;
   }
-  @media (min-width: 800px) {
+  @media (min-width: 700px) {
     .trust-box {
       grid-template-columns: 1.3fr 1fr 1fr;
     }

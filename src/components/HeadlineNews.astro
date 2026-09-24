@@ -1,0 +1,106 @@
+---
+import { articleUrl, type Article } from '../lib/articles';
+
+interface Props {
+  articles: Article[];
+}
+const { articles } = Astro.props;
+---
+
+<section class="headlines" aria-labelledby="headlines-label">
+  <h2 id="headlines-label" class="label">Headline News</h2>
+  <div class="viewport">
+    <ul class="track">
+      {articles.map((a) => <li><a href={articleUrl(a)}>{a.data.title}</a></li>)}
+    </ul>
+    <!-- A second, hidden copy makes the scroll loop seamlessly. -->
+    <ul class="track" aria-hidden="true">
+      {articles.map((a) => <li><a href={articleUrl(a)} tabindex="-1">{a.data.title}</a></li>)}
+    </ul>
+  </div>
+</section>
+
+<style>
+  .headlines {
+    display: flex;
+    align-items: stretch;
+    margin-top: 1.25rem;
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    background: var(--surface);
+    overflow: hidden;
+  }
+  .label {
+    flex: none;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding: 0.6rem 0.9rem;
+    background: var(--accent);
+    color: var(--accent-ink);
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .viewport {
+    display: flex;
+    overflow: hidden;
+    min-width: 0;
+    mask-image: linear-gradient(to right, transparent, #000 2rem, #000 calc(100% - 2rem), transparent);
+  }
+  .track {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: none;
+    animation: scroll 60s linear infinite;
+  }
+  .headlines:hover .track,
+  .headlines:focus-within .track {
+    animation-play-state: paused;
+  }
+  li {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    padding: 0.6rem 0;
+    font-size: 0.92rem;
+    font-weight: 600;
+  }
+  li::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    margin-inline: 1.25rem;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  @keyframes scroll {
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  /* No movement for people who prefer reduced motion: scroll by hand instead. */
+  @media (prefers-reduced-motion: reduce) {
+    .viewport {
+      overflow-x: auto;
+      mask-image: none;
+    }
+    .track {
+      animation: none;
+    }
+    .track[aria-hidden='true'] {
+      display: none;
+    }
+  }
+</style>

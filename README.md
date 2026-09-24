@@ -1,4 +1,4 @@
-# UK Business Journal: UK magazine website
+# The Albion: UK magazine website
 
 A fast, static UK magazine built with [Astro](https://astro.build). The same code deploys unchanged to **Netlify**, **Vercel** and **Cloudflare Pages**.
 

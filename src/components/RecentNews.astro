@@ -1,0 +1,99 @@
+---
+import { Image } from 'astro:assets';
+import { articleUrl, formatDate, getCategory, type Article } from '../lib/articles';
+
+interface Props {
+  articles: Article[];
+}
+const { articles } = Astro.props;
+---
+
+<section class="recent" aria-labelledby="recent-title">
+  <h2 id="recent-title">Recent news</h2>
+  <ol>
+    {
+      articles.map((a) => (
+        <li>
+          <a href={articleUrl(a)} class="item">
+            {a.data.cover ? (
+              <Image src={a.data.cover} alt="" widths={[160, 320]} sizes="96px" class="thumb" loading="lazy" />
+            ) : (
+              <span class={`thumb placeholder cat-${a.data.category}`} aria-hidden="true" />
+            )}
+            <span class="text">
+              <span class="kicker">{getCategory(a.data.category).name}</span>
+              <span class="title">{a.data.title}</span>
+              <time class="meta" datetime={a.data.publishDate.toISOString()}>{formatDate(a.data.publishDate)}</time>
+            </span>
+          </a>
+        </li>
+      ))
+    }
+  </ol>
+  <a class="all" href="/articles/">All articles →</a>
+</section>
+
+<style>
+  .recent {
+    border-top: 3px solid var(--ink);
+    padding-top: 0.6rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+    margin: 0 0 0.5rem;
+  }
+  ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  li + li {
+    border-top: 1px solid var(--rule);
+  }
+  .item {
+    display: grid;
+    grid-template-columns: 96px minmax(0, 1fr);
+    gap: 0.85rem;
+    padding-block: 0.85rem;
+    text-decoration: none;
+  }
+  .thumb {
+    width: 96px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: var(--radius);
+    background: var(--rule);
+  }
+  .placeholder {
+    display: block;
+    background: linear-gradient(135deg, #0f2340, #2b4f86);
+  }
+  .text {
+    display: grid;
+    gap: 0.2rem;
+    align-content: start;
+  }
+  .kicker {
+    font-size: 0.68rem;
+  }
+  .title {
+    font-family: var(--font-display);
+    font-weight: 650;
+    font-size: 0.98rem;
+    line-height: 1.25;
+  }
+  .item:hover .title {
+    text-decoration: underline;
+  }
+  .meta {
+    font-size: 0.78rem;
+  }
+  .all {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--accent);
+    text-decoration: none;
+  }
+</style>

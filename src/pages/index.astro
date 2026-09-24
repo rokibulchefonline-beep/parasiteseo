@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import NewsletterBox from '../components/NewsletterBox.astro';
-import Standards from '../components/Standards.astro';
+import HeadlineNews from '../components/HeadlineNews.astro';
 import { CATEGORIES } from '../config';
 import { getArticles } from '../lib/articles';
 
@@ -19,6 +19,8 @@ const sections = CATEGORIES.map((c) => ({
 
 <BaseLayout>
   <div class="wrap">
+    <HeadlineNews articles={articles.slice(0, 8)} />
+
     {
       lead && (
         <section class="front" aria-label="Top stories">
@@ -45,8 +47,6 @@ const sections = CATEGORIES.map((c) => ({
         </>
       )
     }
-
-    <Standards />
 
     <NewsletterBox />
 

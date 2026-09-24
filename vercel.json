@@ -52,13 +52,13 @@
       "permanent": true
     },
     {
-      "source": "/articles/welcome-to-the-albion-review",
-      "destination": "/articles/welcome-to-uk-business-journal/",
+      "source": "/author/(eleanor-hughes|callum-reid|priya-shah)",
+      "destination": "/author/editorial-team/",
       "permanent": true
     },
     {
-      "source": "/author/(eleanor-hughes|callum-reid|priya-shah)",
-      "destination": "/author/editorial-team/",
+      "source": "/articles/(welcome-to-the-albion-review|welcome-to-uk-business-journal)",
+      "destination": "/articles/welcome-to-the-albion/",
       "permanent": true
     }
   ]

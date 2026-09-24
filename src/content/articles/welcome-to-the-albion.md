@@ -1,5 +1,5 @@
 ---
-title: "Welcome to UK Business Journal"
+title: "Welcome to The Albion"
 description: "A new magazine about life in every corner of the United Kingdom, and what you can expect from us."
 category: news
 author: editorial-team
@@ -8,12 +8,12 @@ featured: true
 tags: [announcement, about us]
 location: London
 imageQuery: "newspaper"
-cover: "../../assets/covers/welcome-to-uk-business-journal.jpg"
+cover: "../../assets/covers/welcome-to-the-albion.jpg"
 coverAlt: "A folded stack of newspapers"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
-Welcome to the first edition of UK Business Journal, a magazine for readers who want to understand the whole of the United Kingdom, not just the bits that make the national headlines.
+Welcome to the first edition of The Albion, a magazine for readers who want to understand the whole of the United Kingdom, not just the bits that make the national headlines.
 
 ## Why another magazine?
 

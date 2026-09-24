@@ -2,18 +2,18 @@
 // rebrand the site; no other file needs editing.
 
 export const SITE = {
-  name: 'UK Business Journal',
-  shortName: 'UKBJ',
+  name: 'The Albion',
+  shortName: 'Albion',
   tagline: 'Business, property, food and technology across the UK',
   description:
-    'UK Business Journal is a UK magazine covering business, property, hospitality, technology and life across England, Scotland, Wales and Northern Ireland.',
+    'The Albion is a UK magazine covering business, property, hospitality, technology and life across England, Scotland, Wales and Northern Ireland.',
   locale: 'en-GB',
   lang: 'en',
   timezone: 'Europe/London',
   email: 'editor@example.co.uk',
   // Registered-office style details shown in the footer and on the contact page.
   publisher: {
-    name: 'UK Business Journal',
+    name: 'The Albion',
     address: 'London, United Kingdom',
   },
   social: {
@@ -69,8 +69,8 @@ export type CategorySlug = (typeof CATEGORIES)[number]['slug'];
 export const AUTHORS = {
   'editorial-team': {
     name: 'Editorial Team',
-    role: 'UK Business Journal',
-    bio: 'Articles from the UK Business Journal editorial team, published under our editorial policy.',
+    role: 'The Albion',
+    bio: 'Articles from The Albion editorial team, published under our editorial policy.',
   },
 } as const;
 
