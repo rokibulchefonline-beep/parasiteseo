@@ -7,7 +7,7 @@ tags: [landlords, lettings, compliance, Salik & Co]
 partner: "Salik & Co"
 imageQuery: "brick houses"
 cover: "../../assets/covers/landlord-legal-obligations-england.jpg"
-coverAlt: "Brick houses"
+coverAlt: "A brick chimney stack on a pitched roof"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

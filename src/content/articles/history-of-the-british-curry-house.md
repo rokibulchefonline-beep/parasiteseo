@@ -7,7 +7,7 @@ tags: [curry, history, British Asian food, ARTA]
 partner: "ARTA"
 imageQuery: "curry naan"
 cover: "../../assets/covers/history-of-the-british-curry-house.jpg"
-coverAlt: "Curry naan"
+coverAlt: "Chapatis served with curry and spiced peas"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

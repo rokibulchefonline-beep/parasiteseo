@@ -7,7 +7,7 @@ tags: [operations, kitchen management, takeaway business, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "kitchen staff"
 cover: "../../assets/covers/managing-the-friday-night-rush.jpg"
-coverAlt: "member Sang Lee Farms kitchen"
+coverAlt: "A cook moving trays of food out of the oven in a busy kitchen"
 coverCredit: "Photo: U.S. Department of Agriculture / rawpixel (CC0 1.0)"
 ---
 
