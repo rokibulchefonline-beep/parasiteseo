@@ -88,23 +88,38 @@ Set the **`SITE_URL`** environment variable to your public address (e.g. `https:
 3. Add `SITE_URL` under **Settings → Environment Variables**.
 4. Forms: Vercel has no built-in form handling. Change the `action` on the forms in `src/components/NewsletterBox.astro` and `src/pages/contact.astro` to your provider's endpoint (Mailchimp, Buttondown, Kit, Formspree, etc.).
 
-### Cloudflare Pages
+### Cloudflare
 
-1. **Workers & Pages → Create → Pages → Connect to Git** and pick this repository.
-2. Framework preset: **Astro**. Build command: `npm run build`. Output directory: `dist`.
-3. Add `SITE_URL` (and `NODE_VERSION=22` if needed) under **Settings → Environment variables**.
-4. `public/_headers` and `public/_redirects` are applied automatically. `wrangler.toml` also lets you deploy from the command line: `npm run build && npx wrangler pages deploy`.
-5. Forms: as with Vercel, point the form `action` at an external provider.
+`wrangler.toml` is set up for **Cloudflare Workers with static assets**, which is what **Workers & Pages → Create → Import a repository** creates today.
+
+1. Import this repository.
+2. Build command: `npm run build`. Deploy command: `npx wrangler deploy`.
+3. The Worker's name in Cloudflare must match `name` in `wrangler.toml` (currently `parasiteseo`). Change one of them if they differ.
+4. Add `SITE_URL` under **Settings → Variables and Secrets** (build variables).
+5. `public/_headers` and `public/_redirects` are applied automatically, and unknown URLs show the 404 page.
+6. Deploy from your own machine instead: `npx wrangler login`, then `npm run deploy:cloudflare`.
+7. Forms: as with Vercel, point the form `action` at an external provider.
+
+If you created a classic **Pages** project instead, set build command `npm run build` and output directory `dist` in the dashboard. Pages ignores this `wrangler.toml`.
 
 ### Headers and redirects
 
-| File | Netlify | Vercel | Cloudflare Pages |
+| File | Netlify | Vercel | Cloudflare |
 | --- | --- | --- | --- |
 | `public/_headers` | ✅ | – | ✅ |
 | `public/_redirects` | ✅ | – | ✅ |
 | `vercel.json` | – | ✅ | – |
 
 If you add a header or redirect, add it to `public/_headers` or `public/_redirects` **and** to `vercel.json`.
+
+## Google Search Console
+
+1. In [Search Console](https://search.google.com/search-console) add a **URL prefix** property for your site and choose **HTML tag** verification.
+2. Copy only the `content` value from the tag Google shows you, e.g. `<meta name="google-site-verification" content="AbC123…">` → `AbC123…`.
+3. Paste it into `googleSiteVerification` in `src/config.ts` (replacing `PASTE_GSC_CODE_HERE`), **or** set the `PUBLIC_GOOGLE_SITE_VERIFICATION` environment variable on your host.
+4. Redeploy, click **Verify**, then submit `https://your-domain/sitemap-index.xml` under **Sitemaps**.
+
+A **Domain** property verified by DNS TXT record also works and needs no code change.
 
 ## Analytics and advertising
 

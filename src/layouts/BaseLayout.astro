@@ -41,6 +41,8 @@ const siteJsonLd = {
   address: { '@type': 'PostalAddress', addressCountry: 'GB' },
   sameAs: Object.values(SITE.social),
 };
+const gscCode = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION || SITE.googleSiteVerification;
+const showGsc = gscCode && gscCode !== 'PASTE_GSC_CODE_HERE';
 const schemas = [siteJsonLd, ...(jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [])];
 ---
 
@@ -53,6 +55,7 @@ const schemas = [siteJsonLd, ...(jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jso
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
     {noindex && <meta name="robots" content="noindex, follow" />}
+    {showGsc && <meta name="google-site-verification" content={gscCode} />}
     <meta name="theme-color" content="#b3122d" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="alternate" type="application/rss+xml" title={SITE.name} href="/rss.xml" />

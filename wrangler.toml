@@ -1,5 +1,16 @@
-# Cloudflare Pages: https://developers.cloudflare.com/pages/functions/wrangler-configuration/
-# Build command: npm run build   Output directory: dist
-name = "uk-magazine"
-pages_build_output_dir = "dist"
+# Cloudflare Workers (static assets). Used when the project is connected
+# through Workers & Pages > Create > Import a repository, which runs
+# `npx wrangler deploy` after the build.
+#
+#   Build command:  npm run build
+#   Deploy command: npx wrangler deploy
+#
+# `name` must match the Worker's name in the Cloudflare dashboard.
+name = "parasiteseo"
 compatibility_date = "2026-09-01"
+
+[assets]
+directory = "./dist"
+# Serve dist/404.html for unknown URLs, and /about/ for /about.
+not_found_handling = "404-page"
+html_handling = "auto-trailing-slash"
