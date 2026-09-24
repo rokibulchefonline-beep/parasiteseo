@@ -6,6 +6,9 @@ publishDate: 2026-09-17
 tags: [restaurant websites, online ordering, takeaway business, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "laptop desk"
+cover: "../../assets/covers/building-your-own-takeaway-ordering-website.jpg"
+coverAlt: "Laptop Desk Light Lamp"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 Your website is often the first impression a hungry customer gets of your restaurant, and increasingly it's where the sale happens. A clunky, slow site loses orders to competitors in seconds. A fast, clear one wins them, and every order through it is an order you don't share with a marketplace.

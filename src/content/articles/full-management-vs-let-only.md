@@ -6,6 +6,9 @@ publishDate: 2026-08-15
 tags: [landlords, property management, lettings, Salik & Co]
 partner: "Salik & Co"
 imageQuery: "apartment interior"
+cover: "../../assets/covers/full-management-vs-let-only.jpg"
+coverAlt: "Modern apartment interior"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 Letting agents usually offer landlords a choice of service levels, from simply finding a tenant to managing every aspect of the tenancy. Choosing the right one depends on your time, your experience, how close you live to the property, and how comfortable you are keeping up with the law.

@@ -8,6 +8,9 @@ featured: true
 tags: [announcement, about us]
 location: London
 imageQuery: "newspaper"
+cover: "../../assets/covers/welcome-to-the-albion-review.jpg"
+coverAlt: "Free newspaper table closeup image"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 Welcome to the first edition of The Albion Review, a magazine for readers who want to understand the whole of the United Kingdom, not just the bits that make the national headlines.

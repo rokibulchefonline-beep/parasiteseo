@@ -6,6 +6,9 @@ publishDate: 2026-09-07
 tags: [marketing, print, takeaway business, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "menu"
+cover: "../../assets/covers/do-printed-menus-still-work.jpg"
+coverAlt: "Menu board brick wall"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 It's tempting to think that the takeaway menu pushed through the letterbox belongs to the past. Most orders are now placed online, after all. Yet many successful independent takeaways still invest in print, and for good reason. Done well, print remains one of the most reliable ways for a local takeaway to reach its neighbourhood.

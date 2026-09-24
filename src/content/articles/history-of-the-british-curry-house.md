@@ -6,6 +6,9 @@ publishDate: 2026-09-08
 tags: [curry, history, British Asian food, ARTA]
 partner: "ARTA"
 imageQuery: "curry house"
+cover: "../../assets/covers/history-of-the-british-curry-house.jpg"
+coverAlt: "Taniscot Engine House Sign (1935/1942)"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 Curry is so woven into British life that it's easy to forget how it got here. The story of the British curry house spans more than two centuries, and it's a story of trade and empire, migration and enterprise, and a cuisine that adapted, evolved and became part of the national identity.

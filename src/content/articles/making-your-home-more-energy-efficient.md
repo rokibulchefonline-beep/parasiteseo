@@ -6,6 +6,9 @@ author: editorial-team
 publishDate: 2026-09-08
 tags: [home, energy, money saving]
 imageQuery: "thermostat"
+cover: "../../assets/covers/making-your-home-more-energy-efficient.jpg"
+coverAlt: "Free thermostat photo"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 As the nights draw in, small changes around the home can make a noticeable difference to comfort and bills.

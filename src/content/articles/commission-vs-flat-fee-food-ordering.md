@@ -6,6 +6,9 @@ publishDate: 2026-09-22
 tags: [restaurants, takeaway business, online ordering, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "cafe counter"
+cover: "../../assets/covers/commission-vs-flat-fee-food-ordering.jpg"
+coverAlt: "Restaurant Chalkboard Menu"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 For many UK takeaways, online orders now make up a large share of the business. But online orders don't all earn the same, and the way you pay for your ordering system can make a big difference to your bottom line.

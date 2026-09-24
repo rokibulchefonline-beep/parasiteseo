@@ -6,6 +6,9 @@ publishDate: 2026-09-10
 tags: [estate agents, selling property, lettings, Salik & Co]
 partner: "Salik & Co"
 imageQuery: "for sale sign"
+cover: "../../assets/covers/independent-vs-chain-estate-agent.jpg"
+coverAlt: "Garage Sale sign"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 Choosing an estate agent is one of the biggest decisions you'll make when selling or letting your home. The right agent can achieve a better price, find a reliable buyer or tenant, and keep the process moving. The wrong one can leave your property sitting unsold or let to the wrong people.

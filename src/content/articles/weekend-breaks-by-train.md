@@ -6,6 +6,9 @@ author: priya-shah
 publishDate: 2026-09-10
 tags: [rail travel, weekend breaks, staycation]
 imageQuery: "train countryside"
+cover: "../../assets/covers/weekend-breaks-by-train.jpg"
+coverAlt: "City view eira, helsinki, 1912"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 Travelling by train turns the journey into part of the holiday. Here are five kinds of weekend that work particularly well without a car.

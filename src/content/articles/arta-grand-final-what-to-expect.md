@@ -6,6 +6,9 @@ publishDate: 2026-08-24
 tags: [ARTA, awards, events, hospitality]
 partner: "ARTA"
 imageQuery: "gala dinner"
+cover: "../../assets/covers/arta-grand-final-what-to-expect.jpg"
+coverAlt: "Gala dinner. public domain image"
+coverCredit: "Photo: usbotschaftberlin / rawpixel (CC0 1.0)"
 ---
 
 After months of public voting and assessment, the **Asian Restaurant & Takeaway Awards (ARTA)** reach their climax at the **Grand Final**, one of the biggest nights in the British Asian hospitality calendar.

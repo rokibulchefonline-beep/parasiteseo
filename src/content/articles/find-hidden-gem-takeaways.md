@@ -6,6 +6,9 @@ publishDate: 2026-08-30
 tags: [takeaway, local food, restaurants, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "street food"
+cover: "../../assets/covers/find-hidden-gem-takeaways.jpg"
+coverAlt: "Free street food vendor Jaipur"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 Scroll through any big delivery app and the top of the list is dominated by chains, heavily promoted listings and restaurants paying for prime placement. That doesn't mean they're the best food in your area. Many of the finest takeaways are small, family-run places that spend their money on ingredients rather than advertising.

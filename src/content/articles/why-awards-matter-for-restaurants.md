@@ -6,6 +6,9 @@ publishDate: 2026-09-13
 tags: [ARTA, awards, restaurant marketing, hospitality]
 partner: "ARTA"
 imageQuery: "waiter"
+cover: "../../assets/covers/why-awards-matter-for-restaurants.jpg"
+coverAlt: "Waiter"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 For an independent restaurant or takeaway, marketing budgets are tight and competition is fierce. Chains have national advertising, marketplaces sell top placement, and new openings appear constantly. In that environment, industry awards offer something that's hard to buy: **independent recognition**.

@@ -6,6 +6,9 @@ publishDate: 2026-09-23
 tags: [ARTA, awards, curry, British Asian food]
 partner: "ARTA"
 imageQuery: "trophies"
+cover: "../../assets/covers/what-is-arta-asian-restaurant-takeaway-awards.jpg"
+coverAlt: "Triple trophies, world sport championship"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 Britain's love of curry is part of the national identity. From high street curry houses to neighbourhood takeaways, British Asian restaurants feed millions of people every week, employ tens of thousands, and have shaped the way the country eats.

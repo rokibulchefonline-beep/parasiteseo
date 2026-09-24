@@ -6,6 +6,9 @@ publishDate: 2026-09-21
 tags: [curry, takeaway, entertaining, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "thali"
+cover: "../../assets/covers/ordering-a-curry-for-a-group.jpg"
+coverAlt: "Veg Thali in Kochi"
+coverCredit: "Photo: Saaheel Majethia / wordpress (CC0 1.0)"
 ---
 
 A group curry night is one of the great British traditions. It works for birthdays, leaving dos, big football matches and family gatherings. But a group chat of twelve people all choosing their own dishes can quickly turn into chaos: forgotten orders, three chicken kormas, and someone who wanted vegetarian left with nothing but rice.

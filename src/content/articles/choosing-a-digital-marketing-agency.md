@@ -6,6 +6,9 @@ publishDate: 2026-08-13
 tags: [digital marketing agencies, SEO, PPC, small business, GTech Digital]
 partner: "GTech Digital"
 imageQuery: "business meeting"
+cover: "../../assets/covers/choosing-a-digital-marketing-agency.jpg"
+coverAlt: "Business meeting"
+coverCredit: "Photo: usbotschaftberlin / rawpixel (CC0 1.0)"
 ---
 
 Hiring a digital marketing agency is a significant investment. The right agency can transform your business: more visibility, more enquiries, more sales. The wrong one can drain your budget with little to show for it, and leave you locked into a long contract.
