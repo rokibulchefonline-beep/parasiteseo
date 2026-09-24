@@ -112,7 +112,12 @@ const jsonLd = [
       data.cover && (
         <figure class="hero">
           <Image src={data.cover} alt={data.coverAlt ?? ''} widths={[800, 1200, 1600]} sizes="(min-width: 1200px) 1200px, 100vw" loading="eager" />
-          {data.coverAlt && <figcaption class="meta">{data.coverAlt}</figcaption>}
+          {(data.coverAlt || data.coverCredit) && (
+            <figcaption class="meta">
+              {data.coverAlt}
+              {data.coverCredit && <span class="credit"> {data.coverCredit}</span>}
+            </figcaption>
+          )}
         </figure>
       )
     }

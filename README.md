@@ -38,8 +38,10 @@ category: travel            # one of the slugs in src/config.ts
 author: priya-shah          # one of the author keys in src/config.ts
 publishDate: 2026-09-24
 updatedDate: 2026-09-25     # optional
-cover: ./images/my-story.jpg # optional, relative to the Markdown file
+cover: ../../assets/covers/my-story.jpg # optional
 coverAlt: Describe the image
+coverCredit: "Photo: Name / Pexels" # optional
+imageQuery: "search terms"  # used by npm run images
 tags: [walking, coast]
 location: Cornwall          # optional dateline
 featured: false             # true puts it in the front-page lead slot
@@ -54,6 +56,19 @@ Your article in Markdown…
 Cover images are optimised automatically (responsive sizes, modern formats). Articles without a cover get a coloured section panel instead.
 
 The eight general articles are sample content, so replace them with your own before launch. The 50 brand articles (10 each for chefonline.co.uk, chefonline.com, Salik & Co, ARTA and GTech Digital) use the `partner` field, so each one carries a disclosure of the business relationship.
+
+## Featured images
+
+Every article has an `imageQuery` (search terms for a stock photo). One command downloads a photo for each article that doesn't have a `cover` yet, crops it to 1600×900 in `src/assets/covers/`, and writes `cover`, `coverAlt` and `coverCredit` into the article:
+
+```bash
+PEXELS_API_KEY=your-key npm run images   # recommended: free key from https://www.pexels.com/api/
+npm run images                           # no key: uses Openverse (CC0 / CC BY photos, credit shown)
+npm run images -- --only=my-story        # one article
+npm run images -- --force                # replace existing covers
+```
+
+Look over each photo before publishing and improve `coverAlt` if the stock description is vague. The credit appears under the image on the article page. You can also add your own photo: save it in `src/assets/covers/` and set `cover` yourself.
 
 ## Deploy
 

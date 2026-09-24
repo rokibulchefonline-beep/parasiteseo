@@ -17,6 +17,10 @@ const articles = defineCollection({
       updatedDate: z.coerce.date().optional(),
       cover: image().optional(),
       coverAlt: z.string().optional(),
+      // Photographer / source credit shown under the featured image.
+      coverCredit: z.string().optional(),
+      // Search terms used by `npm run images` to find a stock photo.
+      imageQuery: z.string().optional(),
       tags: z.array(z.string()).default([]),
       location: z.string().optional(),
       featured: z.boolean().default(false),

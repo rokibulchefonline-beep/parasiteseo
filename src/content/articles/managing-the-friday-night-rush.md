@@ -5,36 +5,139 @@ category: business
 publishDate: 2026-08-21
 tags: [operations, kitchen management, takeaway business, ChefOnline]
 partner: "ChefOnline"
+imageQuery: "busy restaurant kitchen chefs cooking"
 ---
 
-Friday and Saturday evenings can make or break a takeaway's week. When dine-in, phone and online orders all peak at once, a plan matters.
+Friday and Saturday evenings can make or break a takeaway's week. When dine-in customers, phone orders, walk-ins and online orders all peak at once, a kitchen without a plan can quickly descend into chaos: late deliveries, wrong orders, stressed staff and angry reviews.
 
-## Prep is everything
+The best takeaways make the rush look easy. Here's how.
 
-Know your busiest dishes and prep ahead: sauces, marinated meats, chopped vegetables and portioned rice. The more that's ready, the faster each order goes out.
+## Before service: preparation is everything
 
-## Set realistic times
+### Know your numbers
 
-Customers are more forgiving of a 50-minute estimate that's met than a 30-minute promise that's missed. Most ordering systems let you adjust estimated times during busy periods.
+Use your EPoS and ordering reports to answer:
 
-## Use time slots
+- What time do orders start to build, and when do they peak?
+- Which dishes sell most on busy nights?
+- How many orders can your kitchen realistically handle in an hour?
 
-Encourage customers to pre-order for a specific time. It spreads demand across the evening.
+This data shapes everything else, from staff rotas to prep lists.
 
-## One order flow
+### Prep ahead
 
-Make sure all orders, whatever the channel, go into one queue and print in the kitchen. Integrated EPoS and online ordering avoids orders being missed on a separate tablet.
+The more that's ready before service, the faster each order goes out:
 
-## Pause when you need to
+- **sauces and bases** made in advance
+- **meat marinated**, and pre-cooked where your recipes allow
+- **vegetables chopped**
+- **rice cooked and held safely**, following food safety rules
+- **breads, starters and sides** portioned and ready
+- **packaging, bags, labels and cutlery** stocked at the packing station.
 
-If the kitchen is overwhelmed, temporarily pausing online orders or limiting delivery radius is better than disappointing customers.
+Create a written prep list for busy nights, based on expected volumes, and review it weekly.
 
-## Packing station
+### Staff for the peak
 
-Set up a dedicated packing area with a checklist, so every bag gets the right sides, sauces, cutlery and a promotional leaflet.
+Schedule your strongest team for your busiest hours. Consider short shifts covering just the peak, and make sure every role is covered: cooking, packing, front of house, phones and drivers.
 
-## Review every Monday
+### Brief the team
 
-Look at order data from the weekend: which times were busiest, which dishes sold out, which orders ran late. Adjust staff rotas and prep lists accordingly.
+A quick five-minute briefing before service makes a big difference. Go over expected volumes, specials, anything sold out, large pre-orders and who's doing what.
 
-Restaurant technology providers such as [ChefOnline](https://www.chefonline.com/) offer ordering and EPoS tools that support time slots, order pausing and kitchen printing.
+## During service: control the flow
+
+### Set realistic times
+
+Customers are much more forgiving of a 50-minute estimate that's met than a 30-minute promise that's missed. Most ordering systems let you **adjust estimated times** during busy periods. Do it early, before you fall behind.
+
+### Use time slots and pre-orders
+
+Encourage customers to **pre-order** for a specific time. This spreads demand across the evening and lets the kitchen plan ahead. You can promote pre-ordering in your app, on your website and in messages to regulars.
+
+### One order queue
+
+All orders, from dine-in, phone, walk-in, your website and marketplaces, should go into **one queue** and print or display in the kitchen in the same format. Integrated EPoS and online ordering avoid orders being missed on a separate tablet or re-typed incorrectly.
+
+### Sequence orders smartly
+
+- **Group similar dishes** across orders where possible.
+- **Time cooking** so all items in an order finish together.
+- **Prioritise by pickup or delivery time**, not just order time.
+
+### Pause or limit when you need to
+
+If the kitchen is overwhelmed, it's better to **temporarily pause online orders**, **extend estimated times** or **reduce your delivery radius** than to accept orders you can't deliver well. A short pause protects your reputation.
+
+### Keep communicating
+
+If an order will be late, tell the customer. A quick call or message ("We're running about 15 minutes behind, sorry") prevents a lot of frustration.
+
+## The packing station
+
+Packing is where many errors happen. Set up a dedicated packing area with:
+
+- a **checklist** for every order: mains, rice, bread, sides, sauces, drinks, cutlery and napkins
+- **labels** on containers, especially for allergy-safe dishes
+- **bags and boxes** that keep containers level
+- **leaflets and stickers** promoting your website, app or loyalty scheme.
+
+Ideally, one person checks every bag against the order before it leaves.
+
+## Drivers and collection
+
+### Drivers
+
+- Batch deliveries sensibly by area, but don't hold food so long it goes cold.
+- Keep insulated bags clean and in good condition.
+- Make sure drivers have customers' phone numbers and delivery notes.
+
+### Collection customers
+
+- Keep a clear, separate area for collection orders.
+- Label bags with names and order numbers.
+- Aim to have orders ready at the promised time, but not too early.
+
+## Look after your team
+
+Rushes are physically and mentally demanding. Make sure staff:
+
+- have water and short breaks
+- know who to go to if there's a problem
+- are thanked at the end of a busy night.
+
+A calm, supported team makes fewer mistakes.
+
+## After service: learn and improve
+
+### Review every week
+
+On Monday, look at the weekend's data:
+
+- When were you busiest?
+- Which dishes sold out?
+- Which orders were late, and why?
+- What complaints or reviews came in?
+
+### Adjust
+
+Use what you learn to change staff rotas, prep lists, menu choices and estimated times for the following weekend.
+
+### Handle complaints well
+
+Reply to reviews and complaints from the rush promptly and politely. Offer to put things right.
+
+## Technology that helps
+
+The right tools make peak service far smoother:
+
+- **integrated EPoS and online ordering**, with kitchen printing
+- the ability to **pause orders and adjust times** instantly
+- **time-slot ordering**
+- **reports** on busy periods and best sellers.
+
+[ChefOnline](https://www.chefonline.com/) offers online ordering and EPoS for UK restaurants and takeaways, with time slots, order controls and kitchen printing.
+
+## The bottom line
+
+The Friday rush is predictable, so plan for it. Prep thoroughly, staff for the peak, keep all orders in one queue, set realistic times, check every bag, and learn from every weekend.

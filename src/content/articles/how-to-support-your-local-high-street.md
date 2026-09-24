@@ -6,6 +6,7 @@ author: callum-reid
 publishDate: 2026-09-18
 tags: [high street, small business, shopping local]
 location: Edinburgh
+imageQuery: "british high street independent shops"
 ---
 
 High streets across the UK have changed enormously over the past two decades. Yet independent shops, cafés and services remain at the heart of many communities. Here are seven things anyone can do to help them thrive.
