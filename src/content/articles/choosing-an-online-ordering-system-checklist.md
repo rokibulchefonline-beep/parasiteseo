@@ -7,7 +7,7 @@ tags: [online ordering, restaurant technology, takeaway business, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "checklist"
 cover: "../../assets/covers/choosing-an-online-ordering-system-checklist.jpg"
-coverAlt: "Close checklist wooden surface"
+coverAlt: "A printed checklist with empty tick boxes"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

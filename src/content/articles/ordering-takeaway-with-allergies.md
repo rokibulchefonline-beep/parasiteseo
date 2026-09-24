@@ -7,7 +7,7 @@ tags: [allergies, food safety, takeaway, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "nuts"
 cover: "../../assets/covers/ordering-takeaway-with-allergies.jpg"
-coverAlt: "Free assorted nuts image"
+coverAlt: "Peanuts, walnuts, almonds and pistachios on a wooden board"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

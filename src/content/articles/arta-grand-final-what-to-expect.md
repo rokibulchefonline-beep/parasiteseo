@@ -7,7 +7,7 @@ tags: [ARTA, awards, events, hospitality]
 partner: "ARTA"
 imageQuery: "gala dinner"
 cover: "../../assets/covers/arta-grand-final-what-to-expect.jpg"
-coverAlt: "Gala dinner. public domain image"
+coverAlt: "A banquet hall laid out with round tables for a gala dinner"
 coverCredit: "Photo: usbotschaftberlin / rawpixel (CC0 1.0)"
 ---
 

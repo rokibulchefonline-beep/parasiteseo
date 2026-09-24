@@ -7,7 +7,7 @@ tags: [property value, home improvements, selling property, Salik & Co]
 partner: "Salik & Co"
 imageQuery: "kitchen interior"
 cover: "../../assets/covers/what-affects-your-property-value.jpg"
-coverAlt: "Free modern kitchen interior image"
+coverAlt: "A modern fitted kitchen"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

@@ -7,7 +7,7 @@ tags: [curry, takeaway, entertaining, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "thali"
 cover: "../../assets/covers/ordering-a-curry-for-a-group.jpg"
-coverAlt: "Veg Thali in Kochi"
+coverAlt: "A thali with rice, poppadom and small bowls of curries and sides"
 coverCredit: "Photo: Saaheel Majethia / wordpress (CC0 1.0)"
 ---
 

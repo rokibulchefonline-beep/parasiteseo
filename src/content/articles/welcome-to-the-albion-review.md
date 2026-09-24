@@ -9,7 +9,7 @@ tags: [announcement, about us]
 location: London
 imageQuery: "newspaper"
 cover: "../../assets/covers/welcome-to-the-albion-review.jpg"
-coverAlt: "Free newspaper table closeup image"
+coverAlt: "A folded stack of newspapers"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

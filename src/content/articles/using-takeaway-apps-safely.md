@@ -7,7 +7,7 @@ tags: [online safety, apps, takeaway, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "phone screen"
 cover: "../../assets/covers/using-takeaway-apps-safely.jpg"
-coverAlt: "Phone screen everydaysafilm Instagram profile"
+coverAlt: "A hand holding a smartphone in front of a computer screen"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

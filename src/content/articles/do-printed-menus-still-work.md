@@ -7,7 +7,7 @@ tags: [marketing, print, takeaway business, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "menu"
 cover: "../../assets/covers/do-printed-menus-still-work.jpg"
-coverAlt: "Menu board brick wall"
+coverAlt: "A chalkboard menu with hand-drawn lettering"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

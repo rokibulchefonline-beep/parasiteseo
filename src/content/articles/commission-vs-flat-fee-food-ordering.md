@@ -7,7 +7,7 @@ tags: [restaurants, takeaway business, online ordering, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "cafe counter"
 cover: "../../assets/covers/commission-vs-flat-fee-food-ordering.jpg"
-coverAlt: "Restaurant Chalkboard Menu"
+coverAlt: "The dining room of a restaurant with a chalkboard menu on the wall"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

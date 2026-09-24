@@ -7,7 +7,7 @@ tags: [takeaway, ordering direct, local restaurants, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "takeaway"
 cover: "../../assets/covers/order-takeaway-direct-from-local-restaurants.jpg"
-coverAlt: "takeaway coffee mug protective heat"
+coverAlt: "A takeaway cup on a table"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

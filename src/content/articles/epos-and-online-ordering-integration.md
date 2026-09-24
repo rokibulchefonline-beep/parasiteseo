@@ -5,10 +5,7 @@ category: business
 publishDate: 2026-09-11
 tags: [EPoS, restaurant technology, operations, ChefOnline]
 partner: "ChefOnline"
-imageQuery: "point of sale"
-cover: "../../assets/covers/epos-and-online-ordering-integration.jpg"
-coverAlt: "These Souvenir Seashells Are Sale"
-coverCredit: "Photo: U.S. National Archives / rawpixel (CC0 1.0)"
+imageQuery: "card payment"
 ---
 
 In many takeaways, online orders still arrive on a tablet on the counter and are then re-typed into the till or handwritten for the kitchen. It works, until the Saturday night rush, when three tablets are beeping, the phone is ringing and a queue is building at the counter.

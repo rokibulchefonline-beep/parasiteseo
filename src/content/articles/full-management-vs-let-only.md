@@ -7,7 +7,7 @@ tags: [landlords, property management, lettings, Salik & Co]
 partner: "Salik & Co"
 imageQuery: "apartment interior"
 cover: "../../assets/covers/full-management-vs-let-only.jpg"
-coverAlt: "Modern apartment interior"
+coverAlt: "A bright, furnished flat with a dining table by the window"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

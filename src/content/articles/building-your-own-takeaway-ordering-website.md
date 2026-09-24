@@ -7,7 +7,7 @@ tags: [restaurant websites, online ordering, takeaway business, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "laptop desk"
 cover: "../../assets/covers/building-your-own-takeaway-ordering-website.jpg"
-coverAlt: "Laptop Desk Light Lamp"
+coverAlt: "An open laptop on a desk under a lamp"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

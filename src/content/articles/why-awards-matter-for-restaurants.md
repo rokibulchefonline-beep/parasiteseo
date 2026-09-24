@@ -7,7 +7,7 @@ tags: [ARTA, awards, restaurant marketing, hospitality]
 partner: "ARTA"
 imageQuery: "waiter"
 cover: "../../assets/covers/why-awards-matter-for-restaurants.jpg"
-coverAlt: "Waiter"
+coverAlt: "A waiter carrying a plate of food"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

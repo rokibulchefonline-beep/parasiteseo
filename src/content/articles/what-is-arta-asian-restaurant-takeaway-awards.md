@@ -7,7 +7,7 @@ tags: [ARTA, awards, curry, British Asian food]
 partner: "ARTA"
 imageQuery: "trophies"
 cover: "../../assets/covers/what-is-arta-asian-restaurant-takeaway-awards.jpg"
-coverAlt: "Triple trophies, world sport championship"
+coverAlt: "A gold trophy on a dark background"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

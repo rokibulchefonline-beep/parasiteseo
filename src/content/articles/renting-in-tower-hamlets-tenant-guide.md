@@ -8,7 +8,7 @@ tags: [renting, tenants, Tower Hamlets, East London, Salik & Co]
 partner: "Salik & Co"
 imageQuery: "canary wharf"
 cover: "../../assets/covers/renting-in-tower-hamlets-tenant-guide.jpg"
-coverAlt: "Canary wharf, London"
+coverAlt: "Canary Wharf towers lit up at night across the river"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

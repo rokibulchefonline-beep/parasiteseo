@@ -7,7 +7,7 @@ publishDate: 2026-09-08
 tags: [home, energy, money saving]
 imageQuery: "thermostat"
 cover: "../../assets/covers/making-your-home-more-energy-efficient.jpg"
-coverAlt: "Free thermostat photo"
+coverAlt: "A thermostatic radiator valve"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

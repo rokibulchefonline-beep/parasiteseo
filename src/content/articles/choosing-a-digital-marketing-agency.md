@@ -7,7 +7,7 @@ tags: [digital marketing agencies, SEO, PPC, small business, GTech Digital]
 partner: "GTech Digital"
 imageQuery: "business meeting"
 cover: "../../assets/covers/choosing-a-digital-marketing-agency.jpg"
-coverAlt: "Business meeting"
+coverAlt: "A business meeting with people talking in front of a screen"
 coverCredit: "Photo: usbotschaftberlin / rawpixel (CC0 1.0)"
 ---
 

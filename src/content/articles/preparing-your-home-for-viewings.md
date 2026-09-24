@@ -7,7 +7,7 @@ tags: [selling property, home staging, viewings, Salik & Co]
 partner: "Salik & Co"
 imageQuery: "sofa"
 cover: "../../assets/covers/preparing-your-home-for-viewings.jpg"
-coverAlt: "Sofa"
+coverAlt: "A neat sofa with cushions in a living room"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

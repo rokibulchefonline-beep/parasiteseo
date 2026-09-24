@@ -7,7 +7,7 @@ tags: [takeaway, local food, restaurants, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "street food"
 cover: "../../assets/covers/find-hidden-gem-takeaways.jpg"
-coverAlt: "Free street food vendor Jaipur"
+coverAlt: "A street food seller with a large tray of colourful snacks"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
