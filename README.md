@@ -45,6 +45,7 @@ location: Cornwall          # optional dateline
 featured: false             # true puts it in the front-page lead slot
 draft: false                # true hides it from production builds
 sponsored: false            # true shows the "Advertisement feature" label
+partner: ChefOnline         # optional: shows a disclosure that the featured business is connected to the publisher
 ---
 
 Your article in Markdown…
@@ -52,7 +53,7 @@ Your article in Markdown…
 
 Cover images are optimised automatically (responsive sizes, modern formats). Articles without a cover get a coloured section panel instead.
 
-The eight articles included are sample content. Replace them with your own before launch.
+The eight general articles are sample content, so replace them with your own before launch. The 50 brand articles (10 each for chefonline.co.uk, chefonline.com, Salik & Co, ARTA and GTech Digital) use the `partner` field, so each one carries a disclosure of the business relationship.
 
 ## Deploy
 

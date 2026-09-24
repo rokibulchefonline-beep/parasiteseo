@@ -24,6 +24,9 @@ const articles = defineCollection({
       // Optional: set when an article is sponsored or contains affiliate links,
       // so the required disclosure is shown (CAP Code / ASA guidance).
       sponsored: z.boolean().default(false),
+      // Name of a business featured in the article that is connected to the
+      // publisher. Shows a disclosure so readers know about the relationship.
+      partner: z.string().optional(),
     }),
 });
 

@@ -1,6 +1,6 @@
 ---
-title: Simple ways to make your home more energy efficient
-description: Low-cost changes that can make a home warmer and help bring bills down over the winter.
+title: "Simple ways to make your home more energy efficient"
+description: "Low-cost changes that can make a home warmer and help bring bills down over the winter."
 category: lifestyle
 author: editorial-team
 publishDate: 2026-09-08

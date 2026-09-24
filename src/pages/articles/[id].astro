@@ -91,6 +91,14 @@ const jsonLd = [
         {' · '}{readingTime(article.body)}
       </p>
       {
+        data.partner && (
+          <p class="disclosure">
+            <strong>Disclosure:</strong> This article features {data.partner}, a business connected to the publisher of{' '}
+            {SITE.name}.
+          </p>
+        )
+      }
+      {
         data.sponsored && (
           <p class="disclosure">
             <strong>Advertisement feature.</strong> This article was produced in partnership with a commercial partner and

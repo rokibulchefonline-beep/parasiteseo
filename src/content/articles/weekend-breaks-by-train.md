@@ -1,6 +1,6 @@
 ---
-title: Five ideas for a weekend break by train
-description: Leave the car at home. These kinds of trips are easy to plan by rail from most of the UK.
+title: "Five ideas for a weekend break by train"
+description: "Leave the car at home. These kinds of trips are easy to plan by rail from most of the UK."
 category: travel
 author: priya-shah
 publishDate: 2026-09-10

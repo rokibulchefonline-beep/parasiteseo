@@ -1,6 +1,6 @@
 ---
-title: A reader's guide to Britain's independent bookshops
-description: Why independent bookshops are worth seeking out, and how to get the most from a visit.
+title: "A reader's guide to Britain's independent bookshops"
+description: "Why independent bookshops are worth seeking out, and how to get the most from a visit."
 category: culture
 author: eleanor-hughes
 publishDate: 2026-09-15

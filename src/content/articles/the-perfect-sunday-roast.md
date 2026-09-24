@@ -1,6 +1,6 @@
 ---
-title: How to cook the perfect Sunday roast
-description: A no-fuss guide to timing, crispy potatoes and proper gravy for the most British of meals.
+title: "How to cook the perfect Sunday roast"
+description: "A no-fuss guide to timing, crispy potatoes and proper gravy for the most British of meals."
 category: food-drink
 author: priya-shah
 publishDate: 2026-09-13

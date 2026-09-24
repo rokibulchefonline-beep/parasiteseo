@@ -31,6 +31,7 @@ export const CATEGORIES = [
   { slug: 'culture', name: 'Culture', description: 'Books, film, music, theatre and the arts.' },
   { slug: 'food-drink', name: 'Food & Drink', description: 'Restaurants, recipes, pubs and producers.' },
   { slug: 'travel', name: 'Travel', description: 'Weekends away, coastlines, cities and countryside.' },
+  { slug: 'property', name: 'Property', description: 'Buying, selling, renting and letting homes in the UK.' },
   { slug: 'lifestyle', name: 'Lifestyle', description: 'Home, health, style and everyday living.' },
   { slug: 'technology', name: 'Technology', description: 'The tech shaping how Britain lives and works.' },
 ] as const;

@@ -1,6 +1,6 @@
 ---
-title: What makes a great British coastal walk
-description: From cliff paths to sandy bays, how to choose, plan and enjoy a walk along the UK's coastline.
+title: "What makes a great British coastal walk"
+description: "From cliff paths to sandy bays, how to choose, plan and enjoy a walk along the UK's coastline."
 category: travel
 author: priya-shah
 publishDate: 2026-09-02

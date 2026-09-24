@@ -1,6 +1,6 @@
 ---
-title: Seven practical ways to support your local high street
-description: Independent shops face rising costs. Here are simple, everyday habits that help keep them open.
+title: "Seven practical ways to support your local high street"
+description: "Independent shops face rising costs. Here are simple, everyday habits that help keep them open."
 category: business
 author: callum-reid
 publishDate: 2026-09-18

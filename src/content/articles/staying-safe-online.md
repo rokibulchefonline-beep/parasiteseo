@@ -1,6 +1,6 @@
 ---
-title: A plain-English guide to staying safe online
-description: The handful of habits that protect most people from the most common online scams.
+title: "A plain-English guide to staying safe online"
+description: "The handful of habits that protect most people from the most common online scams."
 category: technology
 author: editorial-team
 publishDate: 2026-09-05
