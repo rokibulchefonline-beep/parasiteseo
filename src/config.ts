@@ -34,15 +34,6 @@ export const SITE = {
   icoNumber: '', // ICO data protection registration, e.g. 'ZA123456'
 } as const;
 
-// Businesses connected to the publisher. They are disclosed on every article
-// that features them and listed on the ownership page.
-export const CONNECTED_BUSINESSES = [
-  { name: 'ChefOnline', url: 'https://www.chefonline.co.uk/', what: 'Online food ordering for diners and technology for UK restaurants and takeaways (chefonline.co.uk and chefonline.com).' },
-  { name: 'GTech Digital', url: 'https://www.gtechdigital.co.uk/', what: 'Digital marketing agency: SEO, paid advertising, and web and app development.' },
-  { name: 'Salik & Co', url: 'https://www.salikandco.com/', what: 'Independent estate and letting agent in East London.' },
-  { name: 'ARTA', url: 'https://www.artauk.com/', what: 'The Asian Restaurant & Takeaway Awards.' },
-] as const;
-
 // Policy pages, also published in structured data for search engines.
 export const POLICIES = {
   editorial: '/editorial-policy/',

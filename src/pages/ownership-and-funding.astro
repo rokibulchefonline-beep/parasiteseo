@@ -1,6 +1,6 @@
 ---
 import PageLayout from '../layouts/PageLayout.astro';
-import { CONNECTED_BUSINESSES, SITE } from '../config';
+import { SITE } from '../config';
 ---
 
 <PageLayout title="Ownership & funding" intro={`Who is behind ${SITE.name}, and how it is paid for.`}>
@@ -11,16 +11,11 @@ import { CONNECTED_BUSINESSES, SITE } from '../config';
     {SITE.registeredOffice && <> Registered office: {SITE.registeredOffice}.</>}
   </p>
 
-  <h2>Connected businesses</h2>
+  <h2>Businesses connected to our publisher</h2>
   <p>
-    The following businesses are connected to our publisher. When an article features one of them, it carries a
-    disclosure at the top saying so.
+    Some articles feature businesses connected to our publisher. Every one of those articles carries a disclosure at the
+    top naming the business, so you know about the connection before you read it.
   </p>
-  <ul>
-    {CONNECTED_BUSINESSES.map((b) => (
-      <li><a href={b.url} rel="noopener">{b.name}</a>: {b.what}</li>
-    ))}
-  </ul>
 
   <h2>How we are funded</h2>
   <p>

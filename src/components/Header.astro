@@ -19,7 +19,13 @@ const path = Astro.url.pathname;
     <p class="tagline">{SITE.tagline}</p>
   </div>
   <nav class="nav" aria-label="Sections">
-    <ul class="wrap nav-list">
+    <div class="wrap nav-bar">
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-list">
+        <span class="bars" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span class="menu-label">Menu</span>
+      </button>
+    </div>
+    <ul class="wrap nav-list" id="nav-list">
       <li><a href="/" aria-current={path === '/' ? 'page' : undefined}>Home</a></li>
       {
         NAV.map((item) => (
@@ -33,6 +39,33 @@ const path = Astro.url.pathname;
     </ul>
   </nav>
 </header>
+
+<script is:inline>
+  // Hamburger menu on small screens. Without JavaScript the links stay visible.
+  (function () {
+    document.documentElement.classList.add('js');
+    var nav = document.querySelector('.nav');
+    var button = nav.querySelector('.menu-toggle');
+    var label = button.querySelector('.menu-label');
+    function setOpen(open) {
+      nav.classList.toggle('open', open);
+      button.setAttribute('aria-expanded', String(open));
+      label.textContent = open ? 'Close' : 'Menu';
+    }
+    button.addEventListener('click', function () {
+      setOpen(!nav.classList.contains('open'));
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && nav.classList.contains('open')) {
+        setOpen(false);
+        button.focus();
+      }
+    });
+    window.matchMedia('(min-width: 800px)').addEventListener('change', function (e) {
+      if (e.matches) setOpen(false);
+    });
+  })();
+</script>
 
 <style>
   .topbar {
@@ -105,5 +138,82 @@ const path = Astro.url.pathname;
   .nav-list a:hover,
   .nav-list a[aria-current='page'] {
     border-bottom-color: var(--accent);
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  /* Phones and small tablets: hamburger menu. */
+  @media (max-width: 799px) {
+    :global(.js) .nav-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 48px;
+    }
+    .menu-toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin-left: -0.5rem;
+      padding: 0.6rem 0.5rem;
+      border: 0;
+      background: none;
+      color: var(--ink);
+      font: 700 0.95rem var(--font-body);
+      cursor: pointer;
+    }
+    .bars {
+      position: relative;
+      display: inline-block;
+      width: 22px;
+      height: 16px;
+    }
+    .bars span {
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      border-radius: 2px;
+      background: currentColor;
+      transition: transform 0.2s ease, opacity 0.2s ease, top 0.2s ease;
+    }
+    .bars span:nth-child(1) { top: 0; }
+    .bars span:nth-child(2) { top: 7px; }
+    .bars span:nth-child(3) { top: 14px; }
+    .nav.open .bars span:nth-child(1) { top: 7px; transform: rotate(45deg); }
+    .nav.open .bars span:nth-child(2) { opacity: 0; }
+    .nav.open .bars span:nth-child(3) { top: 7px; transform: rotate(-45deg); }
+
+    :global(.js) .nav-list {
+      display: none;
+    }
+    :global(.js) .nav.open .nav-list {
+      display: block;
+      max-height: calc(100vh - 48px);
+      overflow-y: auto;
+      padding-bottom: 0.75rem;
+      border-top: 1px solid var(--rule);
+    }
+    :global(.js) .nav.open .nav-list li + li {
+      border-top: 1px solid var(--rule);
+    }
+    :global(.js) .nav.open .nav-list a {
+      padding: 0.85rem 0;
+      font-size: 1rem;
+      border-bottom: 0;
+      border-left: 3px solid transparent;
+    }
+    :global(.js) .nav.open .nav-list a[aria-current='page'] {
+      border-left-color: var(--accent);
+      padding-left: 0.75rem;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .bars span {
+      transition: none;
+    }
   }
 </style>

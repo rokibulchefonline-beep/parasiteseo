@@ -12,7 +12,7 @@ const site =
   process.env.CF_PAGES_URL || // Cloudflare Pages
   // Current live address (Cloudflare Workers). Change this, or set SITE_URL,
   // when a custom domain is connected.
-  'https://parasiteseo.rokibul-chefonline.workers.dev';
+  'https://albion.rokibul-chefonline.workers.dev';
 
 export default defineConfig({
   site,

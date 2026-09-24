@@ -33,7 +33,7 @@ Also in `src/config.ts`:
 - `email`, `publisher`: replace the placeholders with your real contact email and publisher details.
 - `companyNumber`, `registeredOffice`, `icoNumber`: shown in the footer and on the ownership page once filled in.
 - `social`: links that point only at a site's home page (e.g. `https://x.com/`) are hidden, so add your real profile URLs.
-- `CONNECTED_BUSINESSES`: listed on `/ownership-and-funding/`. Keep it complete; every article with `partner:` must name one of them.
+- Articles that feature a business connected to the publisher must set `partner:` so the disclosure appears.
 - `AUTHORS`: add real writers only, with a genuine bio.
 
 The editorial policy, corrections policy and ownership pages are also published as structured data (`publishingPrinciples`, `correctionsPolicy`, `ownershipFundingInfo`) for search engines.
@@ -106,7 +106,7 @@ Set the **`SITE_URL`** environment variable to your public address (e.g. `https:
 
 1. Import this repository.
 2. Build command: `npm run build`. Deploy command: `npx wrangler deploy`.
-3. The Worker's name in Cloudflare must match `name` in `wrangler.toml` (currently `parasiteseo`). Change one of them if they differ.
+3. The Worker's name in Cloudflare must match `name` in `wrangler.toml` (currently `albion`). Change one of them if they differ.
 4. Add `SITE_URL` under **Settings → Variables and Secrets** (build variables).
 5. `public/_headers` and `public/_redirects` are applied automatically, and unknown URLs show the 404 page.
 6. Deploy from your own machine instead: `npx wrangler login`, then `npm run deploy:cloudflare`.
