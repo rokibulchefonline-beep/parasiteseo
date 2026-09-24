@@ -5,7 +5,7 @@ category: technology
 publishDate: 2026-09-09
 tags: [Google Partner, Google Ads, digital marketing agencies, GTech Digital]
 partner: "GTech Digital"
-imageQuery: "office"
+imageQuery: "office desk"
 ---
 
 When you start looking for a digital marketing agency, you'll notice many display a **"Google Partner"** badge on their websites and proposals. Some show a **"Premier Partner"** badge. It's a useful signal, but it's worth understanding exactly what it means, and what it doesn't, before you let it drive your decision.

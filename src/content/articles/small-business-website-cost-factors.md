@@ -7,7 +7,7 @@ tags: [web design, small business, web development, GTech Digital]
 partner: "GTech Digital"
 imageQuery: "web design"
 cover: "../../assets/covers/small-business-website-cost-factors.jpg"
-coverAlt: "Free web design sketch ideas"
+coverAlt: "Website wireframe sketches in a notebook"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

@@ -5,7 +5,7 @@ category: property
 publishDate: 2026-08-22
 tags: [selling property, home staging, viewings, Salik & Co]
 partner: "Salik & Co"
-imageQuery: "living room"
+imageQuery: "sofa"
 ---
 
 First impressions count. Many buyers and tenants form a view of a home within the first few minutes of walking through the door, and that impression shapes how they feel about the price. The good news is that most of what makes a home appealing costs little or nothing.

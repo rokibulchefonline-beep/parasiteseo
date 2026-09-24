@@ -7,7 +7,7 @@ tags: [social media, restaurant marketing, hospitality, GTech Digital]
 partner: "GTech Digital"
 imageQuery: "food photography"
 cover: "../../assets/covers/social-media-marketing-for-hospitality.jpg"
-coverAlt: "Juicy beef burger food photography"
+coverAlt: "A burger and chips on a plate, photographed for social media"
 coverCredit: "Photo: Jakub Kapusnak / rawpixel (CC0 1.0)"
 ---
 

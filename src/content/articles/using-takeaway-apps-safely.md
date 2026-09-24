@@ -5,7 +5,7 @@ category: technology
 publishDate: 2026-09-06
 tags: [online safety, apps, takeaway, ChefOnline]
 partner: "ChefOnline"
-imageQuery: "mobile phone"
+imageQuery: "phone screen"
 ---
 
 Food ordering apps have made takeaways easier than ever. They also hold a surprising amount of personal information: your name, home address, phone number, order history and often your saved payment details. That makes them worth protecting like any other important account.

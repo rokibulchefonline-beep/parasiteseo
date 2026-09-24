@@ -7,7 +7,7 @@ tags: [British Asian food, curry, regional cuisine, ARTA]
 partner: "ARTA"
 imageQuery: "dosa"
 cover: "../../assets/covers/british-asian-cuisine-beyond-curry.jpg"
-coverAlt: "Dosa"
+coverAlt: "A crisp dosa served with sambar and chutney"
 coverCredit: "Photo: Roland / wikimedia (BY 2.0)"
 ---
 

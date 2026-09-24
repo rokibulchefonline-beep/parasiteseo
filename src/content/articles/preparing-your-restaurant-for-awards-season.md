@@ -7,7 +7,7 @@ tags: [ARTA, awards, restaurant marketing, food hygiene]
 partner: "ARTA"
 imageQuery: "restaurant interior"
 cover: "../../assets/covers/preparing-your-restaurant-for-awards-season.jpg"
-coverAlt: "Free modern restaurant interior image"
+coverAlt: "A stylish restaurant dining room with tables laid for service"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

@@ -5,10 +5,7 @@ category: food-drink
 publishDate: 2026-09-16
 tags: [ARTA, awards, food hygiene, reviews]
 partner: "ARTA"
-imageQuery: "tandoor"
-cover: "../../assets/covers/how-arta-judges-restaurants.jpg"
-coverAlt: "couple preparing tandoori rotis: woman"
-coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
+imageQuery: "indian chef"
 ---
 
 Awards are only as credible as their judging. A competition decided purely by public vote can reward whoever runs the loudest campaign. One decided purely by a panel of experts can feel remote from everyday diners.

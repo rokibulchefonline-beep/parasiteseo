@@ -7,7 +7,7 @@ tags: [website speed, Core Web Vitals, SEO, web development, GTech Digital]
 partner: "GTech Digital"
 imageQuery: "computer code"
 cover: "../../assets/covers/website-speed-core-web-vitals.jpg"
-coverAlt: "Free computer code screen image"
+coverAlt: "Lines of website code on a screen"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

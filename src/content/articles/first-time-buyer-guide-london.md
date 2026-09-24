@@ -8,7 +8,7 @@ tags: [first-time buyers, mortgages, buying property, Salik & Co]
 partner: "Salik & Co"
 imageQuery: "house keys"
 cover: "../../assets/covers/first-time-buyer-guide-london.jpg"
-coverAlt: "House keys"
+coverAlt: "A hand holding a set of house keys"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

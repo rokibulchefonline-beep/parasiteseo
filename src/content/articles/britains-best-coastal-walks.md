@@ -7,7 +7,7 @@ publishDate: 2026-09-02
 tags: [walking, coast, outdoors]
 imageQuery: "coastal path"
 cover: "../../assets/covers/britains-best-coastal-walks.jpg"
-coverAlt: "Ulleungdo Coastal Path - panoramio"
+coverAlt: "A footbridge over a rocky sea inlet on a coastal walking path"
 coverCredit: "Photo: Raki_Man / wikimedia (BY 3.0)"
 ---
 

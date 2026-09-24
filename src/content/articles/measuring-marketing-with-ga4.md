@@ -7,7 +7,7 @@ tags: [Google Analytics, GA4, marketing measurement, GTech Digital]
 partner: "GTech Digital"
 imageQuery: "analytics"
 cover: "../../assets/covers/measuring-marketing-with-ga4.jpg"
-coverAlt: "Office MacBook Laptop Charts Analytics"
+coverAlt: "A laptop showing an analytics dashboard"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

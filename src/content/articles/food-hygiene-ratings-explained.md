@@ -7,7 +7,7 @@ tags: [food hygiene, food safety, takeaway, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "restaurant kitchen"
 cover: "../../assets/covers/food-hygiene-ratings-explained.jpg"
-coverAlt: "Restaurant kitchen"
+coverAlt: "Chefs working in a clean, well-equipped restaurant kitchen"
 coverCredit: "Photo: usbotschaftberlin / rawpixel (CC0 1.0)"
 ---
 

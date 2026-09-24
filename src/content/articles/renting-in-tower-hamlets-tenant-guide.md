@@ -6,7 +6,7 @@ publishDate: 2026-09-18
 location: London
 tags: [renting, tenants, Tower Hamlets, East London, Salik & Co]
 partner: "Salik & Co"
-imageQuery: "tower hamlets"
+imageQuery: "canary wharf"
 ---
 
 Tower Hamlets is one of London's most varied boroughs. It includes historic Whitechapel and Spitalfields, the markets of Brick Lane and Columbia Road, leafy Victoria Park, Bethnal Green and Bow, and the towers of Canary Wharf. It's also one of the capital's busiest rental markets, which means good homes can go quickly.

@@ -5,7 +5,7 @@ category: property
 publishDate: 2026-09-05
 tags: [property value, home improvements, selling property, Salik & Co]
 partner: "Salik & Co"
-imageQuery: "kitchen"
+imageQuery: "kitchen interior"
 ---
 
 "What will add value to my home?" is one of the questions estate agents hear most often. The honest answer is that some things matter a great deal, some matter a little, and some matter much less than people expect, or can even put buyers off.

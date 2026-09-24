@@ -7,7 +7,7 @@ tags: [app development, web development, small business, GTech Digital]
 partner: "GTech Digital"
 imageQuery: "iphone"
 cover: "../../assets/covers/does-your-business-need-an-app.jpg"
-coverAlt: "IPhone 3G and 3G S backs"
+coverAlt: "Two smartphones lying side by side"
 coverCredit: "Photo: gillyberlin / wikimedia (BY 2.0)"
 ---
 

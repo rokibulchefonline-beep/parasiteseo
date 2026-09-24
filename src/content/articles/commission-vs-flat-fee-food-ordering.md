@@ -5,10 +5,7 @@ category: business
 publishDate: 2026-09-22
 tags: [restaurants, takeaway business, online ordering, ChefOnline]
 partner: "ChefOnline"
-imageQuery: "calculator"
-cover: "../../assets/covers/commission-vs-flat-fee-food-ordering.jpg"
-coverAlt: "MH370 Malaysia Airlines Flight 370 map GEOMAR calculation 01 EN"
-coverCredit: "Photo: MrAurum based on File:Reunion_debris_compared_to_MH370_flight_path_and_underwater_search_area.svg by User:AHeneen / wikimedia (BY 4.0)"
+imageQuery: "cafe counter"
 ---
 
 For many UK takeaways, online orders now make up a large share of the business. But online orders don't all earn the same, and the way you pay for your ordering system can make a big difference to your bottom line.

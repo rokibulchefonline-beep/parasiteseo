@@ -7,7 +7,7 @@ tags: [curry, food travel, British Asian food, ARTA]
 partner: "ARTA"
 imageQuery: "balti"
 cover: "../../assets/covers/britains-great-curry-cities.jpg"
-coverAlt: "Balti"
+coverAlt: "A karahi curry garnished with fresh coriander and ginger"
 coverCredit: "Photo: ayes / wikimedia (BY 2.0)"
 ---
 

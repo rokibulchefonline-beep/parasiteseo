@@ -36,7 +36,7 @@ async function fromPexels(query) {
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function fromOpenverse(query) {
-  const url = `https://api.openverse.org/v1/images/?q=${encodeURIComponent(query)}&license=cc0,by&license_type=commercial,modification&aspect_ratio=wide&size=large&page_size=20`;
+  const url = `https://api.openverse.org/v1/images/?q=${encodeURIComponent(query)}&license=cc0,by&license_type=commercial,modification&category=photograph&aspect_ratio=wide&size=large&mature=false&page_size=20`;
   // Anonymous Openverse requests are rate limited, so pace them and back off on 429.
   let res;
   for (let attempt = 0; attempt < 5; attempt++) {

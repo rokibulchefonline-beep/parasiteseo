@@ -7,7 +7,7 @@ publishDate: 2026-09-20
 featured: true
 tags: [announcement, about us]
 location: London
-imageQuery: "newspapers"
+imageQuery: "newspaper"
 ---
 
 Welcome to the first edition of The Albion Review, a magazine for readers who want to understand the whole of the United Kingdom, not just the bits that make the national headlines.

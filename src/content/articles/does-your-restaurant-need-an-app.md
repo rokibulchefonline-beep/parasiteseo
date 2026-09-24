@@ -7,7 +7,7 @@ tags: [restaurant apps, customer loyalty, takeaway business, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "smartphone"
 cover: "../../assets/covers/does-your-restaurant-need-an-app.jpg"
-coverAlt: "Young people texting on smartphones using thumbs"
+coverAlt: "Friends at a restaurant table looking at their phones"
 coverCredit: "Photo: Tomwsulcer / wikimedia (CC0 1.0)"
 ---
 

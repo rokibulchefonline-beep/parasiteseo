@@ -8,7 +8,7 @@ tags: [books, bookshops, reading]
 location: Manchester
 imageQuery: "bookshop"
 cover: "../../assets/covers/a-readers-guide-to-independent-bookshops.jpg"
-coverAlt: "Bookshop"
+coverAlt: "A grand bookshop in a converted theatre, with shelves on several balconies"
 coverCredit: "Photo: Phillip Capper from Wellington, New Zealand / wikimedia (BY 2.0)"
 ---
 

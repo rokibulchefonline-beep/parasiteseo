@@ -7,7 +7,7 @@ tags: [Google Ads, Meta Ads, PPC, digital marketing, GTech Digital]
 partner: "GTech Digital"
 imageQuery: "digital marketing"
 cover: "../../assets/covers/google-ads-vs-meta-ads.jpg"
-coverAlt: "Digital Marketing, Las Vegas, United"
+coverAlt: "A hand holding a smartphone"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

@@ -7,7 +7,7 @@ publishDate: 2026-09-05
 tags: [cyber security, scams, how to]
 imageQuery: "padlock"
 cover: "../../assets/covers/staying-safe-online.jpg"
-coverAlt: "Solex 99 30 padlock with keys (DSCF2659)"
+coverAlt: "A padlock with keys on a wooden table"
 coverCredit: "Photo: Trougnouf / wikimedia (BY 4.0)"
 ---
 

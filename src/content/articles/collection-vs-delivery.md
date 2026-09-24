@@ -7,7 +7,7 @@ tags: [takeaway, saving money, collection, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "takeaway food"
 cover: "../../assets/covers/collection-vs-delivery.jpg"
-coverAlt: "cook putting Asian noodles take-out"
+coverAlt: "Noodles being portioned into foil takeaway containers"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

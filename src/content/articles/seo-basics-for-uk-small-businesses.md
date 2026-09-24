@@ -7,7 +7,7 @@ tags: [SEO, small business, digital marketing, GTech Digital]
 partner: "GTech Digital"
 imageQuery: "google search"
 cover: "../../assets/covers/seo-basics-for-uk-small-businesses.jpg"
-coverAlt: "Google search Samsung tablet screen"
+coverAlt: "A tablet showing the Google search page"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
