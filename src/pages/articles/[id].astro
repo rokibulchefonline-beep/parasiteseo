@@ -3,7 +3,7 @@ import { Image } from 'astro:assets';
 import { render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
-import { SITE } from '../../config';
+import { POLICIES, SITE } from '../../config';
 import {
   articleUrl,
   formatDate,
@@ -26,15 +26,20 @@ interface Props {
 
 const { article, articles } = Astro.props;
 const { data } = article;
-const { Content } = await render(article);
+const { Content, headings } = await render(article);
+const toc = headings.filter((h) => h.depth === 2 && h.text !== 'The bottom line');
+const words = (article.body ?? '').trim().split(/\s+/).length;
+const errorMail = `mailto:${SITE.email}?subject=${encodeURIComponent(`Correction: ${data.title}`)}`;
 const category = getCategory(data.category);
 const author = getAuthor(data.author);
 const related = articles
   .filter((a) => a.id !== article.id && a.data.category === data.category)
   .concat(articles.filter((a) => a.id !== article.id && a.data.category !== data.category))
-  .slice(0, 3);
+  .slice(0, 4);
 
-const url = new URL(articleUrl(article), Astro.site).href;
+const abs = (path: string) => new URL(path, Astro.site).href;
+const url = abs(articleUrl(article));
+const isTeam = data.author === 'editorial-team';
 const jsonLd = [
   {
     '@context': 'https://schema.org',
@@ -48,12 +53,18 @@ const jsonLd = [
     keywords: data.tags.join(', '),
     inLanguage: SITE.locale,
     image: data.cover ? [new URL(data.cover.src, Astro.site).href] : undefined,
-    author: { '@type': 'Person', name: author.name, url: new URL(`/author/${data.author}/`, Astro.site).href },
+    wordCount: words,
+    isAccessibleForFree: true,
+    author: isTeam
+      ? { '@type': 'Organization', name: `${SITE.name} Editorial Team`, url: abs(`/author/${data.author}/`) }
+      : { '@type': 'Person', name: author.name, jobTitle: author.role, url: abs(`/author/${data.author}/`) },
     publisher: {
       '@type': 'NewsMediaOrganization',
+      '@id': abs('/#organization'),
       name: SITE.name,
-      logo: { '@type': 'ImageObject', url: new URL('/favicon.svg', Astro.site).href },
+      logo: { '@type': 'ImageObject', url: abs('/logo.png'), width: 512, height: 512 },
     },
+    publishingPrinciples: abs(POLICIES.editorial),
   },
   {
     '@context': 'https://schema.org',
@@ -94,7 +105,7 @@ const jsonLd = [
         data.partner && (
           <p class="disclosure">
             <strong>Disclosure:</strong> This article features {data.partner}, a business connected to the publisher of{' '}
-            {SITE.name}.
+            {SITE.name}. <a href={POLICIES.ownership}>Read about our ownership and funding</a>.
           </p>
         )
       }
@@ -122,6 +133,21 @@ const jsonLd = [
       )
     }
 
+    {
+      toc.length >= 4 && (
+        <nav class="toc" aria-labelledby="toc-title">
+          <p id="toc-title" class="kicker">In this article</p>
+          <ol>
+            {toc.map((h) => (
+              <li>
+                <a href={`#${h.slug}`}>{h.text}</a>
+              </li>
+            ))}
+          </ol>
+        </nav>
+      )
+    }
+
     <div class="prose">
       <Content />
     </div>
@@ -134,10 +160,25 @@ const jsonLd = [
       )
     }
 
-    <aside class="author-box">
-      <p class="kicker">About the author</p>
-      <p><strong><a href={`/author/${data.author}/`}>{author.name}</a></strong>, {author.role}</p>
-      <p class="meta">{author.bio}</p>
+    <aside class="trust-box" aria-label="About this article">
+      <div>
+        <p class="kicker">Who wrote this</p>
+        <p><strong><a href={`/author/${data.author}/`}>{author.name}</a></strong>, {author.role}</p>
+        <p class="meta">{author.bio}</p>
+      </div>
+      <div>
+        <p class="kicker">How we work</p>
+        <ul>
+          <li><a href={POLICIES.editorial}>Editorial standards</a></li>
+          <li><a href={POLICIES.corrections}>Corrections policy</a></li>
+          <li><a href={POLICIES.ownership}>Ownership &amp; funding</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="kicker">Spotted a mistake?</p>
+        <p class="meta">Tell us and we'll check it and correct it, with a dated note on the article.</p>
+        <p><a class="report" href={errorMail}>Report an error</a></p>
+      </div>
     </aside>
   </article>
 
@@ -211,15 +252,62 @@ const jsonLd = [
     border-radius: 99px;
     padding: 0.2rem 0.75rem;
   }
-  .author-box {
+  .toc {
     max-width: var(--measure);
-    margin-top: 2.5rem;
-    padding: 1.25rem;
+    margin-top: 2rem;
+    padding: 1rem 1.25rem;
     background: var(--surface);
     border: 1px solid var(--rule);
     border-radius: 6px;
   }
-  .author-box p {
-    margin: 0 0 0.25rem;
+  .toc p {
+    margin: 0 0 0.5rem;
+  }
+  .toc ol {
+    margin: 0;
+    padding-left: 1.25rem;
+    display: grid;
+    gap: 0.3rem;
+    font-size: 0.95rem;
+  }
+  .toc a {
+    text-decoration: none;
+  }
+  .toc a:hover {
+    text-decoration: underline;
+  }
+  .trust-box {
+    max-width: 960px;
+    margin-top: 2.5rem;
+    padding: 1.25rem;
+    display: grid;
+    gap: 1.25rem;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-top: 3px solid var(--accent);
+    border-radius: 6px;
+  }
+  @media (min-width: 800px) {
+    .trust-box {
+      grid-template-columns: 1.3fr 1fr 1fr;
+    }
+  }
+  .trust-box p {
+    margin: 0 0 0.35rem;
+  }
+  .trust-box ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    gap: 0.3rem;
+    font-size: 0.95rem;
+  }
+  .trust-box a {
+    color: var(--ink);
+  }
+  .report {
+    font-weight: 600;
+    color: var(--accent) !important;
   }
 </style>

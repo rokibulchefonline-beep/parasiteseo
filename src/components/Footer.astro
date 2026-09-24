@@ -1,6 +1,13 @@
 ---
 import { CATEGORIES, FOOTER_LINKS, SITE } from '../config';
 const year = new Date().getFullYear();
+// Only show social profiles that point at a real account, not a site's home page.
+const socials = Object.entries(SITE.social).filter(([, href]) => new URL(href).pathname.length > 1);
+const legal = [
+  SITE.companyNumber && `Registered in England and Wales, company no. ${SITE.companyNumber}`,
+  SITE.registeredOffice && `Registered office: ${SITE.registeredOffice}`,
+  SITE.icoNumber && `ICO registration: ${SITE.icoNumber}`,
+].filter(Boolean);
 const SOCIAL_LABELS: Record<string, string> = { x: 'X (Twitter)', facebook: 'Facebook', instagram: 'Instagram', linkedin: 'LinkedIn' };
 ---
 
@@ -23,16 +30,23 @@ const SOCIAL_LABELS: Record<string, string> = { x: 'X (Twitter)', facebook: 'Fac
       </ul>
     </nav>
     <div>
-      <h2>Follow us</h2>
+      <h2>Contact</h2>
       <ul>
-        {Object.entries(SITE.social).map(([name, href]) => (
-          <li><a href={href} rel="noopener" target="_blank">{SOCIAL_LABELS[name] ?? name}</a></li>
+        <li><a href={`mailto:${SITE.email}`}>{SITE.email}</a></li>
+        <li><a href="/contact/">Tips, pitches and corrections</a></li>
+        {socials.map(([name, href]) => (
+          <li><a href={href} rel="noopener me" target="_blank">{SOCIAL_LABELS[name] ?? name}</a></li>
         ))}
       </ul>
     </div>
   </div>
   <div class="wrap legal">
-    <p>© {year} {SITE.publisher.name}. {SITE.publisher.address}. All rights reserved.</p>
+    <p>
+      © {year} {SITE.publisher.name}. {SITE.publisher.address}. Publishing since {SITE.foundingYear}.
+      Some articles feature businesses connected to our publisher; each one says so, and we list them on our{' '}
+      <a href="/ownership-and-funding/">ownership &amp; funding</a> page.
+    </p>
+    {legal.length > 0 && <p>{legal.join(' · ')}</p>}
   </div>
 </footer>
 
@@ -83,6 +97,10 @@ const SOCIAL_LABELS: Record<string, string> = { x: 'X (Twitter)', facebook: 'Fac
     font-size: 0.8rem;
   }
   .legal p {
-    margin: 0;
+    margin: 0 0 0.35rem;
+    max-width: 90ch;
+  }
+  .legal a {
+    text-decoration: underline;
   }
 </style>

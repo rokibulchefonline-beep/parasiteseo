@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import NewsletterBox from '../components/NewsletterBox.astro';
+import Standards from '../components/Standards.astro';
 import { CATEGORIES } from '../config';
 import { getArticles } from '../lib/articles';
 
@@ -9,10 +10,10 @@ const articles = await getArticles();
 const lead = articles.find((a) => a.data.featured) ?? articles[0];
 const rest = articles.filter((a) => a !== lead);
 const secondary = rest.slice(0, 2);
-const latest = rest.slice(2, 8);
+const latest = rest.slice(2, 10);
 const sections = CATEGORIES.map((c) => ({
   ...c,
-  items: articles.filter((a) => a.data.category === c.slug).slice(0, 3),
+  items: articles.filter((a) => a.data.category === c.slug).slice(0, 4),
 })).filter((s) => s.items.length > 0);
 ---
 
@@ -44,6 +45,8 @@ const sections = CATEGORIES.map((c) => ({
         </>
       )
     }
+
+    <Standards />
 
     <NewsletterBox />
 

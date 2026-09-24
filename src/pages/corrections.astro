@@ -1,0 +1,28 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { SITE } from '../config';
+---
+
+<PageLayout title="Corrections policy" intro="How to tell us about a mistake, and what we do about it.">
+  <h2>Reporting an error</h2>
+  <p>
+    Every article has a <strong>Report an error</strong> link at the bottom. You can also email
+    <a href={`mailto:${SITE.email}?subject=Correction`}>{SITE.email}</a>. Please tell us which article, what you think is
+    wrong, and, if you can, a source for the correct information.
+  </p>
+
+  <h2>What we do</h2>
+  <ol>
+    <li>We acknowledge your message, normally within five working days.</li>
+    <li>We check the claim against the original or official source.</li>
+    <li>If the article is wrong, we correct it promptly.</li>
+    <li>For anything more than a typo, we add a dated correction note at the end of the article saying what changed.</li>
+  </ol>
+
+  <h2>What we don't do</h2>
+  <p>
+    We don't quietly rewrite articles to hide mistakes, and we don't remove articles because a business or advertiser
+    would prefer we did. Requests to remove personal information are handled under our
+    <a href="/privacy/">privacy notice</a>.
+  </p>
+</PageLayout>

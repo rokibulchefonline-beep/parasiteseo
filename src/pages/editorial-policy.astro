@@ -1,0 +1,47 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { SITE } from '../config';
+---
+
+<PageLayout title="Editorial policy" intro="The standards every article on this site is published under.">
+  <h2 id="accuracy">Accuracy</h2>
+  <ul>
+    <li>We base legal, safety, tax and financial information on official sources such as GOV.UK, the Food Standards Agency, HMRC, the ICO and Companies House, and link to them where readers need the detail.</li>
+    <li>Where rules are changing, such as housing or tax reforms introduced in stages, we say so and point readers to the official source rather than guessing dates or figures.</li>
+    <li>We don't invent statistics, quotes, case studies, reviews or testimonials.</li>
+    <li>General guidance is labelled as such. It is not legal, financial or medical advice.</li>
+  </ul>
+
+  <h2 id="updates">Keeping articles up to date</h2>
+  <p>
+    Practical guides are reviewed when the rules they describe change. When we make a significant update, the article
+    shows an "Updated" date next to the original publication date.
+  </p>
+
+  <h2 id="connected-businesses">Businesses connected to our publisher</h2>
+  <p>
+    Some articles feature businesses connected to the publisher of {SITE.name}. We tell readers this in a disclosure at
+    the top of every such article, and the businesses are listed on our
+    <a href="/ownership-and-funding/">ownership &amp; funding</a> page. These articles must still meet every standard on
+    this page: they should be useful to readers who never use the business they mention.
+  </p>
+
+  <h2 id="advertising">Advertising, sponsorship and affiliate links</h2>
+  <p>
+    Paid partnerships are labelled <strong>"Advertisement feature"</strong> at the top of the article, and links that
+    earn us a commission are disclosed, in line with the CAP Code and Advertising Standards Authority guidance.
+    Advertisers don't see or approve articles before publication.
+  </p>
+
+  <h2 id="images">Images</h2>
+  <p>
+    We use our own photography or openly licensed stock photos. Each stock photo is credited under the image with its
+    photographer, source and licence.
+  </p>
+
+  <h2 id="corrections">Corrections and complaints</h2>
+  <p>
+    See our <a href="/corrections/">corrections policy</a>. To complain about an article, email
+    <a href={`mailto:${SITE.email}`}>{SITE.email}</a>. We aim to acknowledge complaints within five working days.
+  </p>
+</PageLayout>

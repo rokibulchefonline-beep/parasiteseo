@@ -1,0 +1,22 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { SITE } from '../config';
+---
+
+<PageLayout title="Accessibility statement" intro="We want everyone to be able to read and use this website.">
+  <h2>What we do</h2>
+  <ul>
+    <li>Pages work on phones, tablets and desktops, and text can be zoomed to 200% without breaking the layout.</li>
+    <li>All pages can be used with a keyboard, with a visible focus outline and a "Skip to content" link.</li>
+    <li>Images have text descriptions, and decorative images are hidden from screen readers.</li>
+    <li>Headings, landmarks and lists are marked up so screen readers can navigate them.</li>
+    <li>The site supports your device's dark mode setting.</li>
+  </ul>
+  <p>We aim to meet the Web Content Accessibility Guidelines (WCAG) 2.2 at level AA.</p>
+
+  <h2>Tell us about a problem</h2>
+  <p>
+    If something on this site is hard to use, email <a href={`mailto:${SITE.email}?subject=Accessibility`}>{SITE.email}</a>
+    and tell us the page and the problem. We'll reply within five working days.
+  </p>
+</PageLayout>

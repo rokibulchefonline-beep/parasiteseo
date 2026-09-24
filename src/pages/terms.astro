@@ -1,0 +1,32 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { SITE } from '../config';
+---
+
+<PageLayout title="Terms of use" intro="The terms that apply when you use this website.">
+  <p><em>This template is a starting point, not legal advice. Review it with your own adviser.</em></p>
+
+  <h2>Information, not advice</h2>
+  <p>
+    Articles on {SITE.name} are general information. They are not legal, financial, tax, medical or professional advice.
+    Rules change, so check the official source or take professional advice before acting.
+  </p>
+
+  <h2>Copyright</h2>
+  <p>
+    Articles are © {SITE.publisher.name}. You may quote short extracts with a link back to the original article. Stock
+    photos belong to their photographers and are used under the licence credited beneath each image.
+  </p>
+
+  <h2>Links to other websites</h2>
+  <p>
+    We link to other websites, including official sources and businesses connected to our publisher (always disclosed).
+    We are not responsible for the content of other websites.
+  </p>
+
+  <h2>Law</h2>
+  <p>These terms are governed by the law of England and Wales.</p>
+
+  <h2>Contact</h2>
+  <p><a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
+</PageLayout>

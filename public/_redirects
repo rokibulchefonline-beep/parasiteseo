@@ -3,3 +3,6 @@
 /sections/*               /category/:splat    301
 /articles/welcome-to-the-albion-review   /articles/welcome-to-uk-business-journal/   301
 /articles/welcome-to-the-albion-review/  /articles/welcome-to-uk-business-journal/   301
+/author/eleanor-hughes   /author/editorial-team/   301
+/author/callum-reid      /author/editorial-team/   301
+/author/priya-shah       /author/editorial-team/   301

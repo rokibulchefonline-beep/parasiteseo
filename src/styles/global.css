@@ -150,8 +150,19 @@ h4 {
 
 .grid {
   display: grid;
-  gap: 2rem 1.75rem;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr));
+  gap: 2rem 1.5rem;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+/* Four cards per row on desktop. */
+@media (min-width: 1000px) {
+  .grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
 }
 
 .prose {
@@ -160,6 +171,7 @@ h4 {
   line-height: 1.75;
 }
 .prose h2 {
+  scroll-margin-top: 72px;
   font-size: 1.6rem;
   margin-top: 2em;
 }

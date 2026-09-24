@@ -1,0 +1,37 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { CATEGORIES, SITE } from '../config';
+---
+
+<PageLayout title="About us" intro={`${SITE.name} publishes practical guides and explainers about business, property, hospitality and technology across the UK.`}>
+  <h2>What we publish</h2>
+  <p>
+    We write for people who run, work in or deal with UK businesses: restaurant and takeaway owners, landlords and
+    tenants, home buyers and sellers, and small firms trying to make sense of marketing and technology. Our articles
+    explain how things work, what the rules are, and what to ask before you spend money.
+  </p>
+  <ul>
+    {CATEGORIES.map((c) => <li><a href={`/category/${c.slug}/`}>{c.name}</a>: {c.description}</li>)}
+  </ul>
+
+  <h2>How we work</h2>
+  <ul>
+    <li><strong>Official sources first.</strong> Where an article covers law, safety or money, we base it on the official source, such as GOV.UK, the Food Standards Agency, HMRC or the ICO, and point readers to it for the latest detail.</li>
+    <li><strong>No invented facts.</strong> We don't publish made-up statistics, quotes, reviews or testimonials.</li>
+    <li><strong>Clear about connections.</strong> Some articles feature businesses connected to our publisher. Every one of those articles carries a disclosure at the top, and we list the businesses on our <a href="/ownership-and-funding/">ownership &amp; funding</a> page.</li>
+    <li><strong>Corrections in the open.</strong> If we get something wrong, we fix it and add a dated note. See our <a href="/corrections/">corrections policy</a>.</li>
+  </ul>
+  <p>Read the full <a href="/editorial-policy/">editorial policy</a>.</p>
+
+  <h2>Who writes for us</h2>
+  <p>
+    Articles are currently written and published by the {SITE.name} editorial team. When individual writers join, their
+    articles will carry their own byline and author page.
+  </p>
+
+  <h2>Get in touch</h2>
+  <p>
+    Story ideas, corrections and questions are welcome at <a href={`mailto:${SITE.email}`}>{SITE.email}</a> or through
+    our <a href="/contact/">contact page</a>.
+  </p>
+</PageLayout>

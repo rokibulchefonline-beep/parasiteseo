@@ -26,6 +26,18 @@ Node 22 or newer is required.
 
 Everything that identifies the magazine lives in **`src/config.ts`**: name, tagline, description, contact email, publisher details, social links, sections (categories) and authors. Also replace `public/favicon.svg` and `public/og-default.png` (1200×630).
 
+## Trust settings
+
+Also in `src/config.ts`:
+
+- `email`, `publisher`: replace the placeholders with your real contact email and publisher details.
+- `companyNumber`, `registeredOffice`, `icoNumber`: shown in the footer and on the ownership page once filled in.
+- `social`: links that point only at a site's home page (e.g. `https://x.com/`) are hidden, so add your real profile URLs.
+- `CONNECTED_BUSINESSES`: listed on `/ownership-and-funding/`. Keep it complete; every article with `partner:` must name one of them.
+- `AUTHORS`: add real writers only, with a genuine bio.
+
+The editorial policy, corrections policy and ownership pages are also published as structured data (`publishingPrinciples`, `correctionsPolicy`, `ownershipFundingInfo`) for search engines.
+
 ## Write an article
 
 Add a Markdown file to `src/content/articles/`. The file name becomes the URL, e.g. `my-story.md` → `/articles/my-story/`.

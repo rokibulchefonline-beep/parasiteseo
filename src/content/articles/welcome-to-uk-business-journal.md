@@ -1,6 +1,6 @@
 ---
 title: "Welcome to UK Business Journal"
-description: "A new independent magazine about life in every corner of the United Kingdom, and what you can expect from us."
+description: "A new magazine about life in every corner of the United Kingdom, and what you can expect from us."
 category: news
 author: editorial-team
 publishDate: 2026-09-20
