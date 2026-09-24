@@ -25,30 +25,66 @@ async function fromPexels(query) {
   const res = await fetch(url, { headers: { Authorization: PEXELS_KEY } });
   if (!res.ok) throw new Error(`Pexels ${res.status}`);
   const { photos } = await res.json();
-  const photo = photos.find((p) => !used.has(`pexels:${p.id}`));
-  if (!photo) return null;
-  used.add(`pexels:${photo.id}`);
-  return {
+  return photos.map((photo) => ({
+    key: `pexels:${photo.id}`,
     src: photo.src.large2x,
-    alt: photo.alt || query,
+    alt: photo.alt,
     credit: `Photo: ${photo.photographer} / Pexels`,
-  };
+  }));
 }
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function fromOpenverse(query) {
   const url = `https://api.openverse.org/v1/images/?q=${encodeURIComponent(query)}&license=cc0,by&license_type=commercial,modification&aspect_ratio=wide&size=large&page_size=20`;
-  const res = await fetch(url);
+  // Anonymous Openverse requests are rate limited, so pace them and back off on 429.
+  let res;
+  for (let attempt = 0; attempt < 5; attempt++) {
+    await sleep(process.env.OPENVERSE_DELAY_MS ? Number(process.env.OPENVERSE_DELAY_MS) : 4000);
+    res = await fetch(url, { headers: { 'User-Agent': 'uk-magazine-image-fetcher' } });
+    if (res.status !== 429) break;
+    await sleep(30000 * (attempt + 1));
+  }
   if (!res.ok) throw new Error(`Openverse ${res.status}`);
   const { results } = await res.json();
-  const photo = results.find((p) => !used.has(`ov:${p.id}`));
-  if (!photo) return null;
-  used.add(`ov:${photo.id}`);
-  const license = `${photo.license.toUpperCase()} ${photo.license_version ?? ''}`.trim();
-  return {
+  return results.map((photo) => ({
+    key: `ov:${photo.id}`,
     src: photo.url,
-    alt: photo.title || query,
-    credit: `Photo: ${photo.creator || 'Unknown'} / ${photo.source} (${license})`,
-  };
+    alt: photo.title,
+    credit: `Photo: ${photo.creator || 'Unknown'} / ${photo.source} (${`${photo.license.toUpperCase()} ${photo.license_version ?? ''}`.trim()})`,
+  }));
+}
+
+// Stock titles are often file names ("IMG_1234.jpg"); fall back to the query.
+function altText(title, query) {
+  const t = (title ?? '').trim();
+  if (t.split(/\s+/).length < 3 || /\.(jpe?g|png|webp)$|^(img|dsc|p)[-_ ]?\d+/i.test(t)) {
+    return query.charAt(0).toUpperCase() + query.slice(1);
+  }
+  return t;
+}
+
+// Tries candidates in order until one downloads and decodes as an image.
+async function download(candidates, out) {
+  for (const photo of candidates) {
+    if (used.has(photo.key)) continue;
+    try {
+      const img = await fetch(photo.src, { headers: { 'User-Agent': 'uk-magazine-image-fetcher' } });
+      if (!img.ok) continue;
+      const input = Buffer.from(await img.arrayBuffer());
+      const { width = 0 } = await sharp(input).metadata();
+      if (width < 1000) continue;
+      await sharp(input)
+        .resize({ width: 1600, height: 900, fit: 'cover', position: 'attention' })
+        .jpeg({ quality: 80, mozjpeg: true })
+        .toFile(out);
+      used.add(photo.key);
+      return photo;
+    } catch {
+      // try the next candidate
+    }
+  }
+  return null;
 }
 
 function setField(frontmatter, key, value) {
@@ -73,21 +109,16 @@ for (const file of files) {
   if (!query || (/^cover:/m.test(fm) && !force)) continue;
 
   try {
-    const photo = PEXELS_KEY ? await fromPexels(query) : await fromOpenverse(query);
+    const candidates = PEXELS_KEY ? await fromPexels(query) : await fromOpenverse(query);
+    const out = path.join(COVERS, `${slug}.jpg`);
+    const photo = await download(candidates, out);
     if (!photo) {
-      console.warn(`– ${slug}: no image found for "${query}"`);
+      console.warn(`– ${slug}: no usable image found for "${query}"`);
       continue;
     }
-    const img = await fetch(photo.src);
-    if (!img.ok) throw new Error(`download ${img.status}`);
-    const out = path.join(COVERS, `${slug}.jpg`);
-    await sharp(Buffer.from(await img.arrayBuffer()))
-      .resize({ width: 1600, height: 900, fit: 'cover' })
-      .jpeg({ quality: 80, mozjpeg: true })
-      .toFile(out);
 
     fm = setField(fm, 'cover', `../../assets/covers/${slug}.jpg`);
-    fm = setField(fm, 'coverAlt', photo.alt);
+    fm = setField(fm, 'coverAlt', altText(photo.alt, query));
     fm = setField(fm, 'coverCredit', photo.credit);
     await writeFile(full, text.replace(match[0], `---\n${fm}\n---\n`));
     console.log(`✓ ${slug}  (${photo.credit})`);

@@ -1,0 +1,59 @@
+# Downloads a stock photo for every article that has an `imageQuery` but no
+# `cover`, then commits the images and updated front matter back to the branch.
+# Uses Pexels when the PEXELS_API_KEY repository secret is set, otherwise
+# Openverse (CC0 / CC BY photos, credited under each image).
+name: Fetch featured images
+
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Replace images that already exist
+        type: boolean
+        default: false
+  push:
+    paths:
+      - 'src/content/articles/**'
+      - 'scripts/fetch-images.mjs'
+      - '.github/workflows/fetch-images.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-images-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Fetch images
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: node scripts/fetch-images.mjs ${{ inputs.force && '--force' || '' }}
+
+      - name: Check the site still builds
+        run: npm run build
+
+      - name: Commit images
+        run: |
+          git add src/assets/covers src/content/articles
+          if git diff --cached --quiet; then
+            echo "No new images."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Add featured images from stock photo library"
+          git push
