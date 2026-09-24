@@ -26,7 +26,7 @@ export const SITE = {
   // Google Search Console: choose "HTML tag" verification and paste only the
   // content value here, e.g. 'AbC123...'. Leave the placeholder to skip the
   // tag. It can also be set with the PUBLIC_GOOGLE_SITE_VERIFICATION env var.
-  googleSiteVerification: 'PASTE_GSC_CODE_HERE',
+  googleSiteVerification: 'iM2RCUPEN_LNGWTkSPn6TVQZS6nvaxmVeQpno3h2mA0',
 } as const;
 
 export const CATEGORIES = [

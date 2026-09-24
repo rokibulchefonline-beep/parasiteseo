@@ -7,7 +7,7 @@ tags: [sponsorship, B2B marketing, hospitality, ARTA]
 partner: "ARTA"
 imageQuery: "conference room"
 cover: "../../assets/covers/sponsoring-a-hospitality-awards-event.jpg"
-coverAlt: "conference room whiteboard its brick"
+coverAlt: "An empty meeting room with a long table and chairs"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

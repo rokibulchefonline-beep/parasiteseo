@@ -12,6 +12,9 @@ on:
         type: boolean
         default: false
   push:
+    # Photos are reviewed on the working branch before they reach main.
+    branches-ignore:
+      - main
     paths:
       - 'src/content/articles/**'
       - 'scripts/fetch-images.mjs'

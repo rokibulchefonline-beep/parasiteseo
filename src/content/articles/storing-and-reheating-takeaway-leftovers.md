@@ -5,10 +5,7 @@ category: lifestyle
 publishDate: 2026-08-27
 tags: [food safety, leftovers, food waste, ChefOnline]
 partner: "ChefOnline"
-imageQuery: "food containers"
-cover: "../../assets/covers/storing-and-reheating-takeaway-leftovers.jpg"
-coverAlt: "Child's Handled Food Container Unidentified"
-coverCredit: "Photo: barnesfoundation / rawpixel (CC0 1.0)"
+imageQuery: "tupperware"
 ---
 
 Leftover curry can taste even better the next day, as the spices have time to develop. But leftovers can also cause food poisoning if they're not cooled, stored and reheated properly. Rice deserves particular care.

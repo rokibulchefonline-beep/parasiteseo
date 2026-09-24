@@ -5,7 +5,7 @@ category: travel
 author: priya-shah
 publishDate: 2026-09-10
 tags: [rail travel, weekend breaks, staycation]
-imageQuery: "train"
+imageQuery: "railway"
 ---
 
 Travelling by train turns the journey into part of the holiday. Here are five kinds of weekend that work particularly well without a car.

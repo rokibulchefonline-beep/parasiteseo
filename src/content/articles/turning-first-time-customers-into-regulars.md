@@ -7,7 +7,7 @@ tags: [customer loyalty, marketing, takeaway business, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "barista"
 cover: "../../assets/covers/turning-first-time-customers-into-regulars.jpg"
-coverAlt: "Free barista making coffee process"
+coverAlt: "A barista making coffee with an espresso machine"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
