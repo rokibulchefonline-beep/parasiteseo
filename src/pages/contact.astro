@@ -1,0 +1,60 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { SITE } from '../config';
+---
+
+<PageLayout title="Contact" intro="Tips, pitches, corrections and advertising enquiries.">
+  <p>Email the newsroom at <a href={`mailto:${SITE.email}`}>{SITE.email}</a>, or use the form below.</p>
+
+  <!-- Netlify Forms handles this out of the box. On Vercel or Cloudflare Pages,
+       point `action` at a form service such as Formspree or Basin. -->
+  <form class="contact" name="contact" method="POST" action="/contact/thanks/" data-netlify="true" netlify-honeypot="company">
+    <input type="hidden" name="form-name" value="contact" />
+    <p class="visually-hidden"><label>Leave blank <input name="company" tabindex="-1" autocomplete="off" /></label></p>
+    <label>Your name <input name="name" required autocomplete="name" /></label>
+    <label>Email <input type="email" name="email" required autocomplete="email" /></label>
+    <label>Subject
+      <select name="subject">
+        <option>Story tip</option>
+        <option>Pitch</option>
+        <option>Correction</option>
+        <option>Advertising</option>
+        <option>Other</option>
+      </select>
+    </label>
+    <label>Message <textarea name="message" rows="6" required></textarea></label>
+    <p class="meta">We use your details only to reply to you. See our <a href="/privacy/">privacy notice</a>.</p>
+    <button class="btn" type="submit">Send message</button>
+  </form>
+
+  <h2>Publisher</h2>
+  <p>{SITE.publisher.name}<br />{SITE.publisher.address}</p>
+</PageLayout>
+
+<style>
+  .contact {
+    display: grid;
+    gap: 1rem;
+    margin-block: 1.5rem 2.5rem;
+  }
+  label {
+    display: grid;
+    gap: 0.35rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+  input,
+  select,
+  textarea {
+    font: inherit;
+    font-weight: 400;
+    padding: 0.65rem 0.8rem;
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    background: var(--surface);
+    color: var(--ink);
+  }
+  .btn {
+    justify-self: start;
+  }
+</style>

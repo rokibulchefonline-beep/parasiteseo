@@ -1,0 +1,97 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+---
+
+<PageLayout title="Search" intro="Find articles by keyword, section or tag.">
+  <form role="search" id="search-form" class="search">
+    <label class="visually-hidden" for="q">Search articles</label>
+    <input id="q" name="q" type="search" placeholder="Try ‘pubs’ or ‘Edinburgh’" autocomplete="off" />
+    <button class="btn" type="submit">Search</button>
+  </form>
+  <p id="search-status" class="meta" aria-live="polite"></p>
+  <ol id="search-results" class="results"></ol>
+</PageLayout>
+
+<script>
+  type Entry = { url: string; title: string; description: string; category: string; tags: string[]; date: string };
+
+  const form = document.getElementById('search-form') as HTMLFormElement;
+  const input = document.getElementById('q') as HTMLInputElement;
+  const status = document.getElementById('search-status')!;
+  const list = document.getElementById('search-results')!;
+  let index: Entry[] | null = null;
+
+  const escape = (s: string) =>
+    s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]!);
+
+  async function run(query: string) {
+    const q = query.trim().toLowerCase();
+    if (!q) {
+      list.innerHTML = '';
+      status.textContent = '';
+      return;
+    }
+    index ??= await fetch('/search-index.json').then((r) => r.json());
+    const terms = q.split(/\s+/);
+    const hits = index!.filter((e) => {
+      const hay = `${e.title} ${e.description} ${e.category} ${e.tags.join(' ')}`.toLowerCase();
+      return terms.every((t) => hay.includes(t));
+    });
+    status.textContent = `${hits.length} result${hits.length === 1 ? '' : 's'} for “${query.trim()}”`;
+    list.innerHTML = hits
+      .map(
+        (h) =>
+          `<li><p class="kicker">${escape(h.category)}</p><h2><a href="${h.url}">${escape(h.title)}</a></h2><p>${escape(h.description)}</p></li>`,
+      )
+      .join('');
+  }
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const url = new URL(location.href);
+    url.searchParams.set('q', input.value);
+    history.replaceState(null, '', url);
+    run(input.value);
+  });
+
+  const initial = new URLSearchParams(location.search).get('q');
+  if (initial) {
+    input.value = initial;
+    run(initial);
+  }
+</script>
+
+<style>
+  .search {
+    display: flex;
+    gap: 0.5rem;
+  }
+  input {
+    flex: 1;
+    min-width: 0;
+    font: inherit;
+    padding: 0.7rem 0.9rem;
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    background: var(--surface);
+    color: var(--ink);
+  }
+  .results {
+    list-style: none;
+    padding: 0;
+  }
+  .results :global(li) {
+    padding-block: 1rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .results :global(h2) {
+    font-size: 1.3rem;
+    margin: 0.25rem 0;
+  }
+  .results :global(h2 a) {
+    text-decoration: none;
+  }
+  .results :global(p) {
+    margin: 0;
+  }
+</style>

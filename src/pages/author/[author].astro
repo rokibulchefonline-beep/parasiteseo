@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { AUTHORS, SITE, type AuthorSlug } from '../../config';
+import { getArticles } from '../../lib/articles';
+
+export function getStaticPaths() {
+  return Object.keys(AUTHORS).map((author) => ({ params: { author } }));
+}
+
+const slug = Astro.params.author as AuthorSlug;
+const author = AUTHORS[slug];
+const articles = (await getArticles()).filter((a) => a.data.author === slug);
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfilePage',
+  mainEntity: { '@type': 'Person', name: author.name, jobTitle: author.role, description: author.bio, worksFor: { '@type': 'Organization', name: SITE.name } },
+};
+---
+
+<BaseLayout title={author.name} description={author.bio} jsonLd={jsonLd}>
+  <div class="wrap">
+    <header class="page-head">
+      <p class="kicker">{author.role}</p>
+      <h1>{author.name}</h1>
+      <p>{author.bio}</p>
+    </header>
+    {
+      articles.length > 0 ? (
+        <div class="grid">
+          {articles.map((a) => <ArticleCard article={a} />)}
+        </div>
+      ) : (
+        <p>No articles yet.</p>
+      )
+    }
+  </div>
+</BaseLayout>

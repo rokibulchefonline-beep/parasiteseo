@@ -1,0 +1,86 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import NewsletterBox from '../components/NewsletterBox.astro';
+import { CATEGORIES } from '../config';
+import { getArticles } from '../lib/articles';
+
+const articles = await getArticles();
+const lead = articles.find((a) => a.data.featured) ?? articles[0];
+const rest = articles.filter((a) => a !== lead);
+const secondary = rest.slice(0, 2);
+const latest = rest.slice(2, 8);
+const sections = CATEGORIES.map((c) => ({
+  ...c,
+  items: articles.filter((a) => a.data.category === c.slug).slice(0, 3),
+})).filter((s) => s.items.length > 0);
+---
+
+<BaseLayout>
+  <div class="wrap">
+    {
+      lead && (
+        <section class="front" aria-label="Top stories">
+          <div class="lead">
+            <ArticleCard article={lead} size="lead" />
+          </div>
+          <div class="side">
+            {secondary.map((a) => <ArticleCard article={a} />)}
+          </div>
+        </section>
+      )
+    }
+
+    {
+      latest.length > 0 && (
+        <>
+          <div class="section-head">
+            <h2>Latest</h2>
+            <a href="/articles/">All articles →</a>
+          </div>
+          <div class="grid">
+            {latest.map((a) => <ArticleCard article={a} />)}
+          </div>
+        </>
+      )
+    }
+
+    <NewsletterBox />
+
+    {
+      sections.map((s) => (
+        <section aria-labelledby={`sec-${s.slug}`}>
+          <div class="section-head">
+            <h2 id={`sec-${s.slug}`}>{s.name}</h2>
+            <a href={`/category/${s.slug}/`}>More {s.name} →</a>
+          </div>
+          <div class="grid">
+            {s.items.map((a) => <ArticleCard article={a} />)}
+          </div>
+        </section>
+      ))
+    }
+  </div>
+</BaseLayout>
+
+<style>
+  .front {
+    display: grid;
+    gap: 2rem;
+    padding-top: 2rem;
+  }
+  .side {
+    display: grid;
+    gap: 2rem;
+    align-content: start;
+  }
+  @media (min-width: 900px) {
+    .front {
+      grid-template-columns: 2fr 1fr;
+    }
+    .side {
+      border-left: 1px solid var(--rule);
+      padding-left: 2rem;
+    }
+  }
+</style>

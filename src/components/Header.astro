@@ -1,0 +1,109 @@
+---
+import { NAV, SITE } from '../config';
+
+const path = Astro.url.pathname;
+---
+
+<header class="site-header">
+  <div class="topbar">
+    <div class="wrap topbar-inner">
+      <span>UK edition</span>
+      <span class="topbar-links">
+        <a href="/search/">Search</a>
+        <a href="/newsletter/">Newsletter</a>
+      </span>
+    </div>
+  </div>
+  <div class="wrap masthead">
+    <a href="/" class="logo" aria-label={`${SITE.name} home`}>{SITE.name}</a>
+    <p class="tagline">{SITE.tagline}</p>
+  </div>
+  <nav class="nav" aria-label="Sections">
+    <ul class="wrap nav-list">
+      <li><a href="/" aria-current={path === '/' ? 'page' : undefined}>Home</a></li>
+      {
+        NAV.map((item) => (
+          <li>
+            <a href={item.href} aria-current={path.startsWith(item.href) ? 'page' : undefined}>
+              {item.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
+</header>
+
+<style>
+  .topbar {
+    background: var(--navy);
+    color: #e8ecf3;
+    font-size: 0.8rem;
+  }
+  .topbar-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-block: 0.4rem;
+  }
+  .topbar-links {
+    display: flex;
+    gap: 1rem;
+  }
+  .topbar a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .topbar a:hover {
+    text-decoration: underline;
+  }
+  .masthead {
+    text-align: center;
+    padding-block: 1.75rem 1.25rem;
+  }
+  .logo {
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 7vw, 3.75rem);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1;
+    text-decoration: none;
+  }
+  .tagline {
+    margin: 0.5rem 0 0;
+    color: var(--ink-faint);
+    font-size: 0.9rem;
+  }
+  .nav {
+    border-block: 1px solid var(--rule);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--bg);
+  }
+  .nav-list {
+    list-style: none;
+    margin: 0 auto;
+    display: flex;
+    gap: 0.25rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+    justify-content: safe center;
+  }
+  .nav-list::-webkit-scrollbar {
+    display: none;
+  }
+  .nav-list a {
+    display: block;
+    padding: 0.8rem 0.7rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    white-space: nowrap;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+  }
+  .nav-list a:hover,
+  .nav-list a[aria-current='page'] {
+    border-bottom-color: var(--accent);
+  }
+</style>

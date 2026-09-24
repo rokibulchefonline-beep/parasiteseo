@@ -1,0 +1,5 @@
+# Cloudflare Pages: https://developers.cloudflare.com/pages/functions/wrangler-configuration/
+# Build command: npm run build   Output directory: dist
+name = "uk-magazine"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-09-01"

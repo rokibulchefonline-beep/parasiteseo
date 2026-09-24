@@ -1,0 +1,27 @@
+---
+import type { GetStaticPathsOptions, Page } from 'astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import Pagination from '../../components/Pagination.astro';
+import { SITE } from '../../config';
+import { getArticles, type Article } from '../../lib/articles';
+
+export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
+  return paginate(await getArticles(), { pageSize: SITE.postsPerPage });
+}
+
+const { page } = Astro.props as { page: Page<Article> };
+---
+
+<BaseLayout title={page.currentPage > 1 ? `All articles – page ${page.currentPage}` : 'All articles'}>
+  <div class="wrap">
+    <header class="page-head">
+      <h1>All articles</h1>
+      <p>Every story from {SITE.name}, newest first.</p>
+    </header>
+    <div class="grid">
+      {page.data.map((a) => <ArticleCard article={a} />)}
+    </div>
+    <Pagination prev={page.url.prev} next={page.url.next} current={page.currentPage} last={page.lastPage} />
+  </div>
+</BaseLayout>

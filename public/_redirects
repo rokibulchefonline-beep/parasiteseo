@@ -1,0 +1,3 @@
+# Old URL                 New URL             Status
+/feed                     /rss.xml            301
+/sections/*               /category/:splat    301

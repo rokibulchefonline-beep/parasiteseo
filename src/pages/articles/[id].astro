@@ -1,0 +1,212 @@
+---
+import { Image } from 'astro:assets';
+import { render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { SITE } from '../../config';
+import {
+  articleUrl,
+  formatDate,
+  getArticles,
+  getAuthor,
+  getCategory,
+  readingTime,
+  type Article,
+} from '../../lib/articles';
+
+export async function getStaticPaths() {
+  const articles = await getArticles();
+  return articles.map((article) => ({ params: { id: article.id }, props: { article, articles } }));
+}
+
+interface Props {
+  article: Article;
+  articles: Article[];
+}
+
+const { article, articles } = Astro.props;
+const { data } = article;
+const { Content } = await render(article);
+const category = getCategory(data.category);
+const author = getAuthor(data.author);
+const related = articles
+  .filter((a) => a.id !== article.id && a.data.category === data.category)
+  .concat(articles.filter((a) => a.id !== article.id && a.data.category !== data.category))
+  .slice(0, 3);
+
+const url = new URL(articleUrl(article), Astro.site).href;
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'NewsArticle',
+    headline: data.title,
+    description: data.description,
+    datePublished: data.publishDate.toISOString(),
+    dateModified: (data.updatedDate ?? data.publishDate).toISOString(),
+    mainEntityOfPage: url,
+    articleSection: category.name,
+    keywords: data.tags.join(', '),
+    inLanguage: SITE.locale,
+    image: data.cover ? [new URL(data.cover.src, Astro.site).href] : undefined,
+    author: { '@type': 'Person', name: author.name, url: new URL(`/author/${data.author}/`, Astro.site).href },
+    publisher: {
+      '@type': 'NewsMediaOrganization',
+      name: SITE.name,
+      logo: { '@type': 'ImageObject', url: new URL('/favicon.svg', Astro.site).href },
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: Astro.site?.href },
+      { '@type': 'ListItem', position: 2, name: category.name, item: new URL(`/category/${category.slug}/`, Astro.site).href },
+      { '@type': 'ListItem', position: 3, name: data.title, item: url },
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title={data.title}
+  description={data.description}
+  image={data.cover?.src}
+  type="article"
+  publishedTime={data.publishDate}
+  modifiedTime={data.updatedDate}
+  jsonLd={jsonLd}
+>
+  <article class="wrap article">
+    <header class="article-head">
+      <nav class="crumbs meta" aria-label="Breadcrumb">
+        <a href="/">Home</a> / <a href={`/category/${category.slug}/`}>{category.name}</a>
+      </nav>
+      <h1>{data.title}</h1>
+      <p class="standfirst">{data.description}</p>
+      <p class="byline meta">
+        By <a href={`/author/${data.author}/`}>{author.name}</a>
+        {data.location && <span>{' · '}{data.location}</span>}
+        {' · '}<time datetime={data.publishDate.toISOString()}>{formatDate(data.publishDate)}</time>
+        {data.updatedDate && <span>{' · Updated '}<time datetime={data.updatedDate.toISOString()}>{formatDate(data.updatedDate)}</time></span>}
+        {' · '}{readingTime(article.body)}
+      </p>
+      {
+        data.sponsored && (
+          <p class="disclosure">
+            <strong>Advertisement feature.</strong> This article was produced in partnership with a commercial partner and
+            may contain affiliate links.
+          </p>
+        )
+      }
+    </header>
+
+    {
+      data.cover && (
+        <figure class="hero">
+          <Image src={data.cover} alt={data.coverAlt ?? ''} widths={[800, 1200, 1600]} sizes="(min-width: 1200px) 1200px, 100vw" loading="eager" />
+          {data.coverAlt && <figcaption class="meta">{data.coverAlt}</figcaption>}
+        </figure>
+      )
+    }
+
+    <div class="prose">
+      <Content />
+    </div>
+
+    {
+      data.tags.length > 0 && (
+        <ul class="tags" aria-label="Tags">
+          {data.tags.map((t) => <li>{t}</li>)}
+        </ul>
+      )
+    }
+
+    <aside class="author-box">
+      <p class="kicker">About the author</p>
+      <p><strong><a href={`/author/${data.author}/`}>{author.name}</a></strong>, {author.role}</p>
+      <p class="meta">{author.bio}</p>
+    </aside>
+  </article>
+
+  {
+    related.length > 0 && (
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Read next</h2>
+        </div>
+        <div class="grid">
+          {related.map((a) => <ArticleCard article={a} />)}
+        </div>
+      </div>
+    )
+  }
+</BaseLayout>
+
+<style>
+  .article-head {
+    max-width: 820px;
+    padding-top: 2rem;
+  }
+  .crumbs a {
+    text-decoration: none;
+  }
+  h1 {
+    font-size: clamp(2rem, 5.5vw, 3.4rem);
+    margin-top: 0.75rem;
+  }
+  .standfirst {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: var(--ink-soft);
+    margin: 0 0 1rem;
+  }
+  .byline a {
+    color: var(--ink);
+    font-weight: 600;
+  }
+  .disclosure {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-left: 4px solid var(--accent);
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+  }
+  .hero {
+    margin: 2rem 0;
+  }
+  .hero :global(img) {
+    width: 100%;
+    border-radius: var(--radius);
+  }
+  .hero figcaption {
+    margin-top: 0.5rem;
+  }
+  .prose {
+    margin-top: 2rem;
+  }
+  .tags {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 2.5rem 0 0;
+  }
+  .tags li {
+    font-size: 0.8rem;
+    border: 1px solid var(--rule);
+    border-radius: 99px;
+    padding: 0.2rem 0.75rem;
+  }
+  .author-box {
+    max-width: var(--measure);
+    margin-top: 2.5rem;
+    padding: 1.25rem;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+  }
+  .author-box p {
+    margin: 0 0 0.25rem;
+  }
+</style>

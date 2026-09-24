@@ -1,0 +1,88 @@
+---
+import { CATEGORIES, FOOTER_LINKS, SITE } from '../config';
+const year = new Date().getFullYear();
+const SOCIAL_LABELS: Record<string, string> = { x: 'X (Twitter)', facebook: 'Facebook', instagram: 'Instagram', linkedin: 'LinkedIn' };
+---
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <p class="footer-logo">{SITE.name}</p>
+      <p>{SITE.description}</p>
+    </div>
+    <nav aria-label="Sections">
+      <h2>Sections</h2>
+      <ul>
+        {CATEGORIES.map((c) => <li><a href={`/category/${c.slug}/`}>{c.name}</a></li>)}
+      </ul>
+    </nav>
+    <nav aria-label="About">
+      <h2>The magazine</h2>
+      <ul>
+        {FOOTER_LINKS.map((l) => <li><a href={l.href}>{l.label}</a></li>)}
+      </ul>
+    </nav>
+    <div>
+      <h2>Follow us</h2>
+      <ul>
+        {Object.entries(SITE.social).map(([name, href]) => (
+          <li><a href={href} rel="noopener" target="_blank">{SOCIAL_LABELS[name] ?? name}</a></li>
+        ))}
+      </ul>
+    </div>
+  </div>
+  <div class="wrap legal">
+    <p>© {year} {SITE.publisher.name}. {SITE.publisher.address}. All rights reserved.</p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    margin-top: 5rem;
+    background: var(--navy);
+    color: #cfd6e2;
+    font-size: 0.9rem;
+  }
+  .footer-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+    padding-block: 3rem 2rem;
+  }
+  .footer-logo {
+    font-family: var(--font-display);
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #fff;
+    margin: 0 0 0.5rem;
+  }
+  h2 {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.4rem;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: #fff;
+  }
+  .legal {
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    padding-block: 1.25rem;
+    font-size: 0.8rem;
+  }
+  .legal p {
+    margin: 0;
+  }
+</style>

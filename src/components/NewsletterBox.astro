@@ -1,0 +1,69 @@
+---
+import { SITE } from '../config';
+---
+
+<section class="newsletter" aria-labelledby="newsletter-title">
+  <div>
+    <h2 id="newsletter-title">The {SITE.shortName} Briefing</h2>
+    <p>The best of the week's stories from across the UK, every Sunday morning. Free, and you can unsubscribe at any time.</p>
+  </div>
+  <!--
+    Netlify handles this form automatically (data-netlify). On Vercel or
+    Cloudflare Pages, point `action` at your email provider's signup URL
+    (e.g. Mailchimp, Buttondown, Kit) instead.
+  -->
+  <form name="newsletter" method="POST" action="/newsletter/thanks/" data-netlify="true" netlify-honeypot="company">
+    <input type="hidden" name="form-name" value="newsletter" />
+    <p class="visually-hidden"><label>Leave blank <input name="company" tabindex="-1" autocomplete="off" /></label></p>
+    <label class="visually-hidden" for="nl-email">Email address</label>
+    <input id="nl-email" type="email" name="email" required placeholder="you@example.co.uk" autocomplete="email" />
+    <button class="btn" type="submit">Sign up</button>
+    <p class="small">By signing up you agree to our <a href="/privacy/">privacy notice</a>.</p>
+  </form>
+</section>
+
+<style>
+  .newsletter {
+    margin-top: 3.5rem;
+    display: grid;
+    gap: 1.5rem;
+    padding: clamp(1.5rem, 4vw, 2.5rem);
+    background: var(--navy);
+    color: #eef1f6;
+    border-radius: 6px;
+  }
+  @media (min-width: 800px) {
+    .newsletter {
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+    }
+  }
+  h2 {
+    font-size: 1.75rem;
+    color: #fff;
+  }
+  p {
+    margin: 0;
+  }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  input[type='email'] {
+    flex: 1 1 220px;
+    min-width: 0;
+    padding: 0.7rem 0.9rem;
+    border-radius: var(--radius);
+    border: 1px solid transparent;
+    font: inherit;
+  }
+  .small {
+    flex-basis: 100%;
+    font-size: 0.8rem;
+    opacity: 0.8;
+  }
+  .small a {
+    color: inherit;
+  }
+</style>

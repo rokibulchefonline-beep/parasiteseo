@@ -1,0 +1,43 @@
+---
+import type { GetStaticPathsOptions, Page } from 'astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ArticleCard from '../../../components/ArticleCard.astro';
+import Pagination from '../../../components/Pagination.astro';
+import { CATEGORIES, SITE } from '../../../config';
+import { getArticles, type Article } from '../../../lib/articles';
+
+export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
+  const articles = await getArticles();
+  return CATEGORIES.flatMap((category) =>
+    paginate(
+      articles.filter((a) => a.data.category === category.slug),
+      { params: { category: category.slug }, props: { category }, pageSize: SITE.postsPerPage },
+    ),
+  );
+}
+
+const { page, category } = Astro.props as { page: Page<Article>; category: (typeof CATEGORIES)[number] };
+---
+
+<BaseLayout
+  title={page.currentPage > 1 ? `${category.name} – page ${page.currentPage}` : category.name}
+  description={`${category.description} Latest ${category.name.toLowerCase()} from ${SITE.name}.`}
+>
+  <div class="wrap">
+    <header class="page-head">
+      <p class="kicker">Section</p>
+      <h1>{category.name}</h1>
+      <p>{category.description}</p>
+    </header>
+    {
+      page.data.length > 0 ? (
+        <div class="grid">
+          {page.data.map((a) => <ArticleCard article={a} />)}
+        </div>
+      ) : (
+        <p>No articles in this section yet. Check back soon.</p>
+      )
+    }
+    <Pagination prev={page.url.prev} next={page.url.next} current={page.currentPage} last={page.lastPage} />
+  </div>
+</BaseLayout>

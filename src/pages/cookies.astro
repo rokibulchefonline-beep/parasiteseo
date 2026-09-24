@@ -1,0 +1,21 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+---
+
+<PageLayout title="Cookie policy" intro="What we store on your device and why (PECR).">
+  <h2>Essential storage</h2>
+  <p>We store your cookie choice in your browser's local storage so we don't ask you again. This is strictly necessary and does not identify you.</p>
+
+  <h2>Optional cookies</h2>
+  <p>If you click "Accept", we may load analytics to understand which articles readers enjoy. Nothing optional is loaded if you click "Reject" or ignore the banner.</p>
+
+  <h2>Change your choice</h2>
+  <p><button class="btn" type="button" id="reset-consent">Reset cookie choice</button></p>
+</PageLayout>
+
+<script is:inline>
+  document.getElementById('reset-consent').addEventListener('click', function () {
+    try { localStorage.removeItem('cookie-consent'); } catch (e) {}
+    location.reload();
+  });
+</script>
