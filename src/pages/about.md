@@ -4,7 +4,7 @@ title: About us
 intro: An independent magazine about life across the United Kingdom.
 ---
 
-The Albion Review publishes reporting, features and reviews from England, Scotland, Wales and Northern Ireland. We cover the stories that matter to people's everyday lives: the economy and the high street, culture and the arts, food, travel and the places we call home.
+UK Business Journal publishes reporting, features and reviews from England, Scotland, Wales and Northern Ireland. We cover the stories that matter to people's everyday lives: the economy and the high street, culture and the arts, food, travel and the places we call home.
 
 ## What we believe
 

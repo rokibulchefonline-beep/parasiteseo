@@ -2,18 +2,18 @@
 // rebrand the site; no other file needs editing.
 
 export const SITE = {
-  name: 'The Albion Review',
-  shortName: 'Albion',
-  tagline: 'Independent journalism from across the United Kingdom',
+  name: 'UK Business Journal',
+  shortName: 'UKBJ',
+  tagline: 'Business, property, food and technology across the UK',
   description:
-    'The Albion Review is an independent UK magazine covering news, business, culture, food, travel and life across England, Scotland, Wales and Northern Ireland.',
+    'UK Business Journal is an independent magazine covering business, property, hospitality, technology and life across England, Scotland, Wales and Northern Ireland.',
   locale: 'en-GB',
   lang: 'en',
   timezone: 'Europe/London',
   email: 'editor@example.co.uk',
   // Registered-office style details shown in the footer and on the contact page.
   publisher: {
-    name: 'The Albion Review Ltd',
+    name: 'UK Business Journal',
     address: 'London, United Kingdom',
   },
   social: {
@@ -45,8 +45,8 @@ export type CategorySlug = (typeof CATEGORIES)[number]['slug'];
 export const AUTHORS = {
   'editorial-team': {
     name: 'Editorial Team',
-    role: 'The Albion Review',
-    bio: 'Reporting and analysis from the Albion Review newsroom.',
+    role: 'UK Business Journal',
+    bio: 'Reporting and analysis from the UK Business Journal newsroom.',
   },
   'eleanor-hughes': {
     name: 'Eleanor Hughes',
