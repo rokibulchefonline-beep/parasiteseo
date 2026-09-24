@@ -6,6 +6,9 @@ publishDate: 2026-09-01
 tags: [local SEO, Google, restaurant marketing, ChefOnline, GTech Digital]
 partner: "ChefOnline and GTech Digital"
 imageQuery: "map phone"
+cover: "../../assets/covers/google-business-profile-for-takeaways.jpg"
+coverAlt: "Social media applications mobile screen"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 When someone searches "takeaway near me" or "Indian restaurant in [your town]", Google usually shows a map with a handful of local businesses before any ordinary search results. Those listings come from **Google Business Profile**, and appearing there can bring a steady stream of new customers.

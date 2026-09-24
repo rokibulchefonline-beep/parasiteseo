@@ -6,6 +6,9 @@ publishDate: 2026-09-20
 tags: [ARTA, awards, nominations, curry]
 partner: "ARTA"
 imageQuery: "curry dish"
+cover: "../../assets/covers/how-to-nominate-your-favourite-curry-house.jpg"
+coverAlt: "Baked Chicken In A Pan"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 Every neighbourhood has a curry house or takeaway its customers swear by. The one that remembers your order, where the chef always sends out something extra, and whose lamb bhuna you'd defend against all comers.

@@ -6,6 +6,9 @@ publishDate: 2026-09-16
 tags: [ARTA, awards, food hygiene, reviews]
 partner: "ARTA"
 imageQuery: "tandoori"
+cover: "../../assets/covers/how-arta-judges-restaurants.jpg"
+coverAlt: "Free chicken tandoori image"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 Awards are only as credible as their judging. A competition decided purely by public vote can reward whoever runs the loudest campaign. One decided purely by a panel of experts can feel remote from everyday diners.
