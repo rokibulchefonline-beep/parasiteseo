@@ -5,7 +5,7 @@ category: food-drink
 publishDate: 2026-09-20
 tags: [ARTA, awards, nominations, curry]
 partner: "ARTA"
-imageQuery: "curry restaurant dining room guests"
+imageQuery: "curry"
 ---
 
 Every neighbourhood has a curry house or takeaway its customers swear by. The one that remembers your order, where the chef always sends out something extra, and whose lamb bhuna you'd defend against all comers.

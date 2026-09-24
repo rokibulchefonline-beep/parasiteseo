@@ -5,7 +5,7 @@ category: business
 publishDate: 2026-08-18
 tags: [online ordering, restaurant technology, takeaway business, ChefOnline]
 partner: "ChefOnline"
-imageQuery: "restaurant owner laptop checklist"
+imageQuery: "notebook laptop"
 ---
 
 Choosing an online ordering system is one of the biggest technology decisions a restaurant or takeaway makes. It affects your costs, your customers' experience, your kitchen's workflow and your ability to grow. Once you've set up menus, trained staff and built a customer base, switching is time-consuming, so it pays to choose carefully.

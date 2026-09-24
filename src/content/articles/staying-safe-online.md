@@ -5,7 +5,7 @@ category: technology
 author: editorial-team
 publishDate: 2026-09-05
 tags: [cyber security, scams, how to]
-imageQuery: "person laptop password security"
+imageQuery: "padlock"
 ---
 
 You don't need to be a technology expert to protect yourself online. A few habits go a long way.

@@ -8,7 +8,7 @@ tags: [landlords, HMO, licensing, London, Salik & Co]
 partner: "Salik & Co"
 imageQuery: "london terraced houses street"
 cover: "../../assets/covers/hmo-and-property-licensing-london.jpg"
-coverAlt: "231-243 Baker Street London (6448187817)"
+coverAlt: "A row of Georgian terraced houses in London"
 coverCredit: "Photo: Elliott Brown from Birmingham, United Kingdom / wikimedia (BY 2.0)"
 ---
 

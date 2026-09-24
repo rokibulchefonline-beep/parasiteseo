@@ -5,7 +5,7 @@ category: food-drink
 publishDate: 2026-09-12
 tags: [allergies, food safety, takeaway, ChefOnline]
 partner: "ChefOnline"
-imageQuery: "person ordering food on smartphone"
+imageQuery: "peanuts"
 ---
 
 For anyone with a food allergy, or a parent ordering for an allergic child, a takeaway can be a stressful experience. You're trusting a kitchen you can't see to get it right. The good news is that UK law gives you a clear right to allergen information, and a few simple steps make ordering much safer.

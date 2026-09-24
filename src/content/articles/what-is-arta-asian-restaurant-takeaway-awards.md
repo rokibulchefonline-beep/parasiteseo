@@ -5,7 +5,7 @@ category: food-drink
 publishDate: 2026-09-23
 tags: [ARTA, awards, curry, British Asian food]
 partner: "ARTA"
-imageQuery: "awards ceremony gala dinner trophy"
+imageQuery: "trophy"
 ---
 
 Britain's love of curry is part of the national identity. From high street curry houses to neighbourhood takeaways, British Asian restaurants feed millions of people every week, employ tens of thousands, and have shaped the way the country eats.

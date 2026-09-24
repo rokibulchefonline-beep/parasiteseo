@@ -8,7 +8,7 @@ tags: [high street, small business, shopping local]
 location: Edinburgh
 imageQuery: "british high street independent shops"
 cover: "../../assets/covers/how-to-support-your-local-high-street.jpg"
-coverAlt: "British high street independent shops"
+coverAlt: "A covered shopping arcade with Union Jack bunting and an old-fashioned sweet shop sign"
 coverCredit: "Photo: Elliott Brown / wikimedia (BY 2.0)"
 ---
 

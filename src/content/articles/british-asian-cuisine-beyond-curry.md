@@ -5,7 +5,7 @@ category: food-drink
 publishDate: 2026-08-20
 tags: [British Asian food, curry, regional cuisine, ARTA]
 partner: "ARTA"
-imageQuery: "south indian dosa thali"
+imageQuery: "dosa"
 ---
 
 "Curry" is a single English word for an enormous range of cuisines. South Asia is home to well over a billion people, dozens of languages, and hundreds of distinct culinary traditions, shaped by geography, climate, religion and history.

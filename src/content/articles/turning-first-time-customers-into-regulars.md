@@ -5,7 +5,7 @@ category: business
 publishDate: 2026-08-28
 tags: [customer loyalty, marketing, takeaway business, ChefOnline]
 partner: "ChefOnline"
-imageQuery: "happy customer receiving takeaway order"
+imageQuery: "coffee shop"
 ---
 
 Every takeaway owner knows the value of regulars: the family who orders every Friday, the office that orders every payday, the couple who always ask for "the usual". Regulars provide steady income, recommend you to friends and forgive the occasional mistake.

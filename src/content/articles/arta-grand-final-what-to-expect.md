@@ -5,10 +5,7 @@ category: culture
 publishDate: 2026-08-24
 tags: [ARTA, awards, events, hospitality]
 partner: "ARTA"
-imageQuery: "gala dinner banquet hall"
-cover: "../../assets/covers/arta-grand-final-what-to-expect.jpg"
-coverAlt: "นายกรัฐมนตรีและภริยาถ่ายภาพร่วมกันก่อนออกเดินทางจากโรง - Flickr - Abhisit Vejjajiva"
-coverCredit: "Photo: Government of Thailand / wikimedia (BY 2.0)"
+imageQuery: "banquet"
 ---
 
 After months of public voting and assessment, the **Asian Restaurant & Takeaway Awards (ARTA)** reach their climax at the **Grand Final**, one of the biggest nights in the British Asian hospitality calendar.

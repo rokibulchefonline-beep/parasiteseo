@@ -7,7 +7,7 @@ tags: [curry, british asian food, takeaway, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "chicken tikka masala naan"
 cover: "../../assets/covers/classic-curry-house-dishes-explained.jpg"
-coverAlt: "Chicken Tikka Masala-01"
+coverAlt: "Butter chicken curry with rice and a garlic naan"
 coverCredit: "Photo: hellosputnik / wikimedia (BY 2.0)"
 ---
 

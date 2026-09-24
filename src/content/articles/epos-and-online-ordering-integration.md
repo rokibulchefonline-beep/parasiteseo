@@ -5,7 +5,7 @@ category: business
 publishDate: 2026-09-11
 tags: [EPoS, restaurant technology, operations, ChefOnline]
 partner: "ChefOnline"
-imageQuery: "restaurant point of sale till touchscreen"
+imageQuery: "cash register"
 ---
 
 In many takeaways, online orders still arrive on a tablet on the counter and are then re-typed into the till or handwritten for the kitchen. It works, until the Saturday night rush, when three tablets are beeping, the phone is ringing and a queue is building at the counter.

@@ -5,10 +5,7 @@ category: business
 publishDate: 2026-08-16
 tags: [sponsorship, B2B marketing, hospitality, ARTA]
 partner: "ARTA"
-imageQuery: "business networking event conference"
-cover: "../../assets/covers/sponsoring-a-hospitality-awards-event.jpg"
-coverAlt: "The Future of Work (50483453236)"
-coverCredit: "Photo: Steve Jurvetson from Los Altos, USA / wikimedia (BY 2.0)"
+imageQuery: "conference"
 ---
 
 If your business sells to restaurants, such as food and drink suppliers, kitchen equipment makers, technology providers, packaging companies or financial services, reaching owners and decision-makers can be difficult. Restaurant owners are busy, often working evenings and weekends, and bombarded with sales calls.

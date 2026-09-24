@@ -8,7 +8,7 @@ tags: [area guide, Brick Lane, Spitalfields, East London, Salik & Co]
 partner: "Salik & Co"
 imageQuery: "Brick Lane London street art"
 cover: "../../assets/covers/moving-to-spitalfields-and-brick-lane.jpg"
-coverAlt: "Brick Lane. London, UK -"
+coverAlt: "A large street art mural on a building in the Brick Lane area"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

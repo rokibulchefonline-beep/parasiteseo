@@ -5,7 +5,7 @@ category: technology
 publishDate: 2026-09-02
 tags: [website speed, Core Web Vitals, SEO, web development, GTech Digital]
 partner: "GTech Digital"
-imageQuery: "website performance speed code screen"
+imageQuery: "computer code"
 ---
 
 A slow website costs you customers. People expect pages to load almost instantly, especially on phones, and many will give up and go elsewhere if they're kept waiting. Slow sites also frustrate visitors who do stay, making them less likely to enquire or buy.

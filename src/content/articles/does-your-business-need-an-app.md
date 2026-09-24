@@ -5,10 +5,7 @@ category: technology
 publishDate: 2026-08-10
 tags: [app development, web development, small business, GTech Digital]
 partner: "GTech Digital"
-imageQuery: "mobile app development designer"
-cover: "../../assets/covers/does-your-business-need-an-app.jpg"
-coverAlt: "App Quest 3.0 Winners Announced (16246119923)"
-coverCredit: "Photo: Metropolitan Transportation Authority of the State of New York / wikimedia (BY 2.0)"
+imageQuery: "iphone"
 ---
 
 "Should we build an app?" is a question many growing businesses ask. Apps feel modern and professional, and seeing your logo on customers' home screens is appealing. Sometimes an app is exactly the right investment. But often a fast, well-designed **mobile website** delivers most of the benefit at a fraction of the cost.

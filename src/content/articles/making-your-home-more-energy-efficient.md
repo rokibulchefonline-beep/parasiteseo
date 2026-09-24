@@ -5,7 +5,7 @@ category: lifestyle
 author: editorial-team
 publishDate: 2026-09-08
 tags: [home, energy, money saving]
-imageQuery: "cosy home radiator winter"
+imageQuery: "radiator"
 ---
 
 As the nights draw in, small changes around the home can make a noticeable difference to comfort and bills.

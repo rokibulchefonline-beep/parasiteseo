@@ -8,7 +8,7 @@ tags: [recipes, sunday roast, british food]
 location: Bristol
 imageQuery: "sunday roast beef yorkshire pudding"
 cover: "../../assets/covers/the-perfect-sunday-roast.jpg"
-coverAlt: "Sunday roast beef yorkshire pudding"
+coverAlt: "A Sunday roast with beef, Yorkshire puddings, carrots, greens and gravy"
 coverCredit: "Photo: by robbie jim / wikimedia (BY 2.0)"
 ---
 

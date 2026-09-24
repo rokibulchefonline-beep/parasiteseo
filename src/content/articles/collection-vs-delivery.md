@@ -5,7 +5,7 @@ category: food-drink
 publishDate: 2026-09-09
 tags: [takeaway, saving money, collection, ChefOnline]
 partner: "ChefOnline"
-imageQuery: "takeaway food containers counter"
+imageQuery: "takeaway food"
 ---
 
 Delivery is one of the great conveniences of modern life. Tap a few buttons and dinner arrives at your door. But if your favourite restaurant is a short walk or drive away, collecting your order yourself can be the smarter choice for your wallet, your dinner and the restaurant.

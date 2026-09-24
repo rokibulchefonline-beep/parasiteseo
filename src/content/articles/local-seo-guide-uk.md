@@ -5,7 +5,7 @@ category: technology
 publishDate: 2026-09-19
 tags: [local SEO, Google Business Profile, small business, GTech Digital]
 partner: "GTech Digital"
-imageQuery: "local shop owner smartphone map"
+imageQuery: "shop front"
 ---
 
 When someone searches "hairdresser near me", "emergency plumber" or "Indian takeaway Bethnal Green", Google usually shows a **map with a handful of local businesses** above the ordinary search results. This is often called the **"local pack"** or **map pack**.

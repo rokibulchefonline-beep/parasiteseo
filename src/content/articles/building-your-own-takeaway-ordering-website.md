@@ -5,7 +5,7 @@ category: business
 publishDate: 2026-09-17
 tags: [restaurant websites, online ordering, takeaway business, ChefOnline]
 partner: "ChefOnline"
-imageQuery: "restaurant website laptop food ordering"
+imageQuery: "laptop"
 ---
 
 Your website is often the first impression a hungry customer gets of your restaurant, and increasingly it's where the sale happens. A clunky, slow site loses orders to competitors in seconds. A fast, clear one wins them, and every order through it is an order you don't share with a marketplace.

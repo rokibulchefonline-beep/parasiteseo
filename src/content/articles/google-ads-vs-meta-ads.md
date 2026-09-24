@@ -5,7 +5,7 @@ category: technology
 publishDate: 2026-09-14
 tags: [Google Ads, Meta Ads, PPC, digital marketing, GTech Digital]
 partner: "GTech Digital"
-imageQuery: "digital marketing dashboard advertising"
+imageQuery: "digital marketing"
 ---
 
 Paid advertising can bring customers to your business quickly, but only if you choose the right platform and set it up properly. Two options dominate for most UK small businesses: **Google Ads** and **Meta Ads** (Facebook and Instagram).

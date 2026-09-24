@@ -5,7 +5,7 @@ category: food-drink
 publishDate: 2026-09-16
 tags: [food hygiene, food safety, takeaway, ChefOnline]
 partner: "ChefOnline"
-imageQuery: "professional restaurant kitchen clean chef"
+imageQuery: "restaurant kitchen"
 ---
 
 The green and black food hygiene rating sticker is one of the most useful things in a restaurant window. It's also one of the most overlooked when ordering online, because there's no window to look at.

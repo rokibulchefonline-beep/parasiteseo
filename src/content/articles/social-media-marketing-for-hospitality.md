@@ -5,7 +5,7 @@ category: technology
 publishDate: 2026-08-23
 tags: [social media, restaurant marketing, hospitality, GTech Digital]
 partner: "GTech Digital"
-imageQuery: "photographing food smartphone restaurant"
+imageQuery: "food photography"
 ---
 
 Food is one of the most shared subjects on social media, which gives restaurants, cafés and takeaways a natural advantage. A sizzling dish, a perfectly layered biryani or a chef tossing naan in the tandoor can stop people mid-scroll.

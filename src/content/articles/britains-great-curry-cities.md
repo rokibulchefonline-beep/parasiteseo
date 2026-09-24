@@ -5,7 +5,7 @@ category: travel
 publishDate: 2026-09-04
 tags: [curry, food travel, British Asian food, ARTA]
 partner: "ARTA"
-imageQuery: "balti curry bowl naan"
+imageQuery: "balti"
 ---
 
 Planning a food-focused weekend away? Few things capture modern Britain like its curry scenes. Each city has its own history, communities and signature dishes, shaped by the families who settled there and the tastes of local diners.

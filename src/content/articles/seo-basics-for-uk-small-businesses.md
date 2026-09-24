@@ -5,7 +5,7 @@ category: technology
 publishDate: 2026-09-23
 tags: [SEO, small business, digital marketing, GTech Digital]
 partner: "GTech Digital"
-imageQuery: "laptop search engine analytics desk"
+imageQuery: "google search"
 ---
 
 Search engine optimisation (SEO) can sound technical, jargon-heavy and a little mysterious. At its heart, though, it's simple: **making it easy for search engines, and the people using them, to understand what your business offers and why you're a good choice.**

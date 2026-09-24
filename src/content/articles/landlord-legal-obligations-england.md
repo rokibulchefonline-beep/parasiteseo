@@ -5,7 +5,7 @@ category: property
 publishDate: 2026-09-15
 tags: [landlords, lettings, compliance, Salik & Co]
 partner: "Salik & Co"
-imageQuery: "landlord paperwork documents keys"
+imageQuery: "terraced houses"
 ---
 
 Letting a property in England comes with a long and growing list of legal responsibilities. Missing one can lead to fines, rent repayment orders, or notices that can't be relied on. With the Renters' Rights Act now reshaping private renting, staying on top of compliance matters more than ever.

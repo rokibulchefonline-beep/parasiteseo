@@ -8,7 +8,7 @@ tags: [selling property, East London, estate agents, Salik & Co]
 partner: "Salik & Co"
 imageQuery: "london apartment building exterior"
 cover: "../../assets/covers/selling-a-flat-in-east-london-step-by-step.jpg"
-coverAlt: "St Ermin's Hotel, London"
+coverAlt: "Red-brick Victorian mansion blocks around a courtyard in London"
 coverCredit: "Photo: John K Thorne / wikimedia (BY 2.0)"
 ---
 

@@ -7,7 +7,7 @@ tags: [menu design, restaurant profit, online ordering, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "chef plating food restaurant kitchen"
 cover: "../../assets/covers/menu-engineering-for-online-menus.jpg"
-coverAlt: "Free chef preparing order image"
+coverAlt: "A chef plating a dish in a restaurant kitchen"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

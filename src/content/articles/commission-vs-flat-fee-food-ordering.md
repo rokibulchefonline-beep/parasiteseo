@@ -5,7 +5,7 @@ category: business
 publishDate: 2026-09-22
 tags: [restaurants, takeaway business, online ordering, ChefOnline]
 partner: "ChefOnline"
-imageQuery: "restaurant owner calculator invoice"
+imageQuery: "calculator"
 ---
 
 For many UK takeaways, online orders now make up a large share of the business. But online orders don't all earn the same, and the way you pay for your ordering system can make a big difference to your bottom line.

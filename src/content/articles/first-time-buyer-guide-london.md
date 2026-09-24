@@ -6,7 +6,7 @@ publishDate: 2026-08-26
 location: London
 tags: [first-time buyers, mortgages, buying property, Salik & Co]
 partner: "Salik & Co"
-imageQuery: "young couple new home moving boxes"
+imageQuery: "house keys"
 ---
 
 Buying your first home in London is exciting, and it can feel overwhelming. Deposits, mortgages, conveyancing, searches, surveys, exchange, completion: the process comes with its own language.

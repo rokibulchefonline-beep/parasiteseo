@@ -5,7 +5,7 @@ category: travel
 author: priya-shah
 publishDate: 2026-09-02
 tags: [walking, coast, outdoors]
-imageQuery: "coastal path cliffs sea uk"
+imageQuery: "coastal path"
 ---
 
 The UK has a remarkably long and varied coastline, and much of it is open to walkers. The King Charles III England Coast Path, the Wales Coast Path and Scotland's many coastal routes make it easier than ever.

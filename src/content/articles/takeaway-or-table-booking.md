@@ -7,7 +7,7 @@ tags: [restaurants, table booking, takeaway, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "restaurant table dinner evening"
 cover: "../../assets/covers/takeaway-or-table-booking.jpg"
-coverAlt: "Restaurant table dinner evening"
+coverAlt: "A restaurant table laid with wine glasses, plates and a candle"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

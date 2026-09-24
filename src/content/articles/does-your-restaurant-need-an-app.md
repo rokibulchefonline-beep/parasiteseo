@@ -5,7 +5,7 @@ category: business
 publishDate: 2026-09-14
 tags: [restaurant apps, customer loyalty, takeaway business, ChefOnline]
 partner: "ChefOnline"
-imageQuery: "mobile phone food app restaurant"
+imageQuery: "smartphone"
 ---
 
 A branded app puts your restaurant's logo on a customer's home screen, right next to the marketplace apps. That's valuable, but only if people download it, keep it and use it. For some restaurants an app becomes a major source of repeat orders. For others it's an expensive icon nobody taps.
