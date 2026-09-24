@@ -7,7 +7,7 @@ tags: [ARTA, awards, food hygiene, reviews]
 partner: "ARTA"
 imageQuery: "tandoori"
 cover: "../../assets/covers/how-arta-judges-restaurants.jpg"
-coverAlt: "Free chicken tandoori image"
+coverAlt: "Tandoori chicken wings on a plate with lettuce"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

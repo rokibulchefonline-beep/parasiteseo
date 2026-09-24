@@ -7,7 +7,7 @@ tags: [ARTA, awards, nominations, curry]
 partner: "ARTA"
 imageQuery: "curry dish"
 cover: "../../assets/covers/how-to-nominate-your-favourite-curry-house.jpg"
-coverAlt: "Baked Chicken In A Pan"
+coverAlt: "A tray of spiced, freshly cooked dishes"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

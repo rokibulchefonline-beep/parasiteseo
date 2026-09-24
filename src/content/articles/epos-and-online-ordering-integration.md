@@ -7,7 +7,7 @@ tags: [EPoS, restaurant technology, operations, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "card payment"
 cover: "../../assets/covers/epos-and-online-ordering-integration.jpg"
-coverAlt: "Credit card payment, shopping"
+coverAlt: "A customer tapping a card on a handheld payment terminal"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

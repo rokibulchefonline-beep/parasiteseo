@@ -7,7 +7,7 @@ tags: [local SEO, Google, restaurant marketing, ChefOnline, GTech Digital]
 partner: "ChefOnline and GTech Digital"
 imageQuery: "map phone"
 cover: "../../assets/covers/google-business-profile-for-takeaways.jpg"
-coverAlt: "Social media applications mobile screen"
+coverAlt: "A smartphone home screen with maps and social media apps"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
