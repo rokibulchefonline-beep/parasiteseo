@@ -6,6 +6,9 @@ publishDate: 2026-11-05
 tags: [food waste, restaurant profit, kitchen management, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "chef chopping vegetables"
+cover: "../../assets/covers/reducing-food-waste-in-a-takeaway-kitchen.jpg"
+coverAlt: "Free woman slicing red bell"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 Every bin bag of food leaving your kitchen is money you've already spent: on ingredients, on energy to cook them and on the staff time to prepare them. In a business where margins are often thin, cutting food waste is one of the quickest ways to improve profit without raising a single price.

@@ -6,6 +6,9 @@ publishDate: 2026-11-05
 tags: [recruitment, staff, hospitality, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "chefs kitchen team"
+cover: "../../assets/covers/hiring-and-keeping-kitchen-staff.jpg"
+coverAlt: "Fort Drum Culinary Competition Team"
+coverCredit: "Photo: U.S. Army / rawpixel (CC0 1.0)"
 ---
 
 Finding and keeping skilled chefs and kitchen staff is one of the biggest challenges facing UK hospitality. Every time someone leaves, you pay for recruitment and training, and your food and service can suffer while you're short-staffed. Here's how to hire well and give people reasons to stay.
