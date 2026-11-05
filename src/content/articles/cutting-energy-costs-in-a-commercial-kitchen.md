@@ -6,6 +6,9 @@ publishDate: 2026-11-05
 tags: [energy costs, restaurant profit, kitchen management, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "stove"
+cover: "../../assets/covers/cutting-energy-costs-in-a-commercial-kitchen.jpg"
+coverAlt: "Free gas stove photo"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 Energy is one of the biggest overheads for restaurants and takeaways. Ovens, grills, fryers, tandoors, extraction fans, fridges, freezers and dishwashers all run for long hours. The good news is that many savings come from habits and maintenance rather than expensive new equipment.

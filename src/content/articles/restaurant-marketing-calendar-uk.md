@@ -6,6 +6,9 @@ publishDate: 2026-11-05
 tags: [restaurant marketing, promotions, planning, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "calendar"
+cover: "../../assets/covers/restaurant-marketing-calendar-uk.jpg"
+coverAlt: "open calendar short notes scribbled"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 The most successful restaurants don't wait for a quiet week to think about marketing. They plan ahead around the moments their customers already care about. Here's a month-by-month calendar of opportunities for UK restaurants and takeaways, with ideas for each. Some dates, such as religious festivals, move each year, so always check the exact dates.

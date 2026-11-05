@@ -6,6 +6,9 @@ publishDate: 2026-11-05
 tags: [promotions, restaurant marketing, takeaway business, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "pizza"
+cover: "../../assets/covers/promotions-that-make-money.jpg"
+coverAlt: "Delicious homemade pizza, Italian food"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 Promotions can fill a quiet Tuesday, win new customers and turn occasional diners into regulars. They can also train customers to only order when there's a discount, and leave you working flat out for no profit. The difference lies in how you design them.
