@@ -6,6 +6,9 @@ publishDate: 2026-11-05
 tags: [delivery, takeaway business, operations, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "delivery"
+cover: "../../assets/covers/own-drivers-or-courier-for-takeaway-delivery.jpg"
+coverAlt: "Grab food delivery man. 30"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 For many UK takeaways, delivery is now a large share of the business. How you deliver affects your costs, your customer experience and your legal responsibilities. There are three broad options: your own drivers, a third-party courier service, or a marketplace's delivery network. Here's how to weigh them up.
