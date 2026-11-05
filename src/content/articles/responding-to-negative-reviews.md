@@ -6,6 +6,9 @@ publishDate: 2026-11-05
 tags: [reviews, reputation, restaurant marketing, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "customer service"
+cover: "../../assets/covers/responding-to-negative-reviews.jpg"
+coverAlt: "typography lovers :)"
+coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
 Every restaurant gets negative reviews. Even the best kitchens have off nights, drivers get stuck in traffic, and some customers are simply hard to please. What matters is how you respond. Potential customers read your replies as closely as the reviews themselves, and a thoughtful response can win more trust than a perfect five-star score.
