@@ -130,7 +130,7 @@ If these numbers are rising, your loyalty efforts are working.
 
 ## Tools that help
 
-Online ordering platforms can make loyalty much easier to manage, with built-in offers, promo codes, customer accounts and order history. [ChefOnline](https://www.chefonline.com/) provides commission-free online ordering, branded apps and marketing tools designed for UK restaurants and takeaways.
+Online ordering platforms can make loyalty much easier to manage, with built-in offers, promo codes, customer accounts and order history. ChefOnline provides [commission-free online ordering for restaurants](https://www.chefonline.com/), branded apps and marketing tools designed for UK restaurants and takeaways.
 
 ## The bottom line
 

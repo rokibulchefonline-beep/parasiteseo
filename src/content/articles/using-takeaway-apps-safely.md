@@ -23,7 +23,7 @@ Only install food ordering apps from Apple's **App Store** or **Google Play**. B
 - the app has a reasonable number of reviews and downloads
 - the permissions it asks for make sense (a food app needs your location for delivery, but not your contacts or microphone).
 
-Fake apps and look-alike websites do exist, particularly around big promotions. Genuine platforms, such as the [ChefOnline](https://www.chefonline.co.uk/) app for iOS and Android, will be listed under their official developer name.
+Fake apps and look-alike websites do exist, particularly around big promotions. Genuine platforms, such as the [ChefOnline food ordering app](https://www.chefonline.co.uk/) for iOS and Android, will be listed under their official developer name.
 
 ## 2. Use a strong, unique password
 

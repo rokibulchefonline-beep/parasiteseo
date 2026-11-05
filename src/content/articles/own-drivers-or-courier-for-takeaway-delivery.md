@@ -114,7 +114,7 @@ Use containers that seal well, keep hot and cold items separate, and put sauces 
 
 ### Communicate with customers
 
-Accurate estimated times and order tracking reduce "where's my food?" calls. Ordering systems such as [ChefOnline](https://www.chefonline.com/) let you set delivery areas, minimum orders, delivery charges and time slots, and send orders straight to the kitchen.
+Accurate estimated times and order tracking reduce "where's my food?" calls. [Takeaway ordering systems](https://www.chefonline.com/) such as ChefOnline let you set delivery areas, minimum orders, delivery charges and time slots, and send orders straight to the kitchen.
 
 ### Deal with problems quickly
 

@@ -52,7 +52,7 @@ Add up your monthly overheads and divide by your typical number of orders per mo
 
 The same dish can be much less profitable on one channel than another. A meal sold through a marketplace charging commission costs you more than the same meal ordered through your own website or over the counter.
 
-Some restaurants set **slightly higher prices on commission-based marketplaces** to cover the fee, while keeping their best prices for direct orders. If you do this, be transparent and consistent. Commission-free ordering, such as through [ChefOnline](https://www.chefonline.com/), means the price the customer pays isn't eroded by a percentage fee on each order.
+Some restaurants set **slightly higher prices on commission-based marketplaces** to cover the fee, while keeping their best prices for direct orders. If you do this, be transparent and consistent. [Commission-free online ordering](https://www.chefonline.com/), such as ChefOnline's, means the price the customer pays isn't eroded by a percentage fee on each order.
 
 ## Step 6: Raise prices the smart way
 

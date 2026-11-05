@@ -113,7 +113,7 @@ Compare the cost of printing and distribution with the value of orders using you
 
 ## Joined-up suppliers
 
-Some hospitality technology providers offer print services alongside online ordering. [ChefOnline](https://www.chefonline.com/), for example, provides menu design and printing as well as commission-free online ordering, apps and EPoS. That makes it easier to keep your QR codes, offers and online menu consistent.
+Some hospitality technology providers offer print services alongside online ordering. ChefOnline, for example, provides [takeaway menu design and printing](https://www.chefonline.com/) as well as commission-free online ordering, apps and EPoS. That makes it easier to keep your QR codes, offers and online menu consistent.
 
 ## The bottom line
 

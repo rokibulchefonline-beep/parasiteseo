@@ -145,7 +145,7 @@ The cheapest option upfront isn't always the cheapest over time, particularly if
 
 ## Where to start
 
-Shortlist three or four providers, ask each one these twelve questions, and compare the answers side by side. [ChefOnline](https://www.chefonline.com/), for example, has served UK restaurants and takeaways since 2014 and offers commission-free online ordering, branded apps, EPoS, printing and digital marketing.
+Shortlist three or four providers, ask each one these twelve questions, and compare the answers side by side. [ChefOnline.com](https://www.chefonline.com/), for example, has served UK restaurants and takeaways since 2014 and offers commission-free online ordering, branded apps, EPoS, printing and digital marketing.
 
 ## The bottom line
 

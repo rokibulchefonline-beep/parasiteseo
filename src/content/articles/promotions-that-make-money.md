@@ -95,7 +95,7 @@ Promotions must follow consumer protection law and advertising rules:
 - Make sure staff **know about every live offer**.
 - Set **start and end dates** and stick to them.
 
-Online ordering systems let you set up discount codes, minimum order values and date limits automatically. [ChefOnline](https://www.chefonline.com/), for example, includes offer and loyalty tools in its ordering websites and apps.
+Online ordering systems let you set up discount codes, minimum order values and date limits automatically. ChefOnline, for example, includes [offer and loyalty tools for restaurants](https://www.chefonline.com/) in its ordering websites and apps.
 
 ## Measure every promotion
 

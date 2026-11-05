@@ -66,7 +66,7 @@ When it's pouring with rain and you've had a long week, there's no shame in stay
 - **Arrive on time**, or call if you're running late.
 - **Cancel if you can't make it.** A no-show on a busy night is a real cost to a small restaurant, and the table could have gone to someone else.
 
-Many restaurants now take bookings online. [ChefOnline](https://www.chefonline.co.uk/), for example, lets customers book a table at participating restaurants as well as order food for collection or delivery.
+Many restaurants now take bookings online. ChefOnline, for example, lets customers [book a table online](https://www.chefonline.co.uk/) at participating restaurants as well as order food for collection or delivery.
 
 ## How to make a takeaway feel special
 

@@ -86,7 +86,7 @@ People who work in takeaways often have the same requests:
 
 If you order regularly, ask whether the restaurant has a loyalty scheme for collection customers. Some offer a free side, a free starter or a discount after a certain number of orders.
 
-Ordering platforms such as [ChefOnline](https://www.chefonline.co.uk/) let you choose collection or delivery at checkout and pick a time slot. Because ChefOnline doesn't charge restaurants commission on orders, and doesn't add a handling fee for customers, restaurants have more room to offer good collection deals.
+[Takeaway ordering sites](https://www.chefonline.co.uk/) such as ChefOnline let you choose collection or delivery at checkout and pick a time slot. Because ChefOnline doesn't charge restaurants commission on orders, and doesn't add a handling fee for customers, restaurants have more room to offer good collection deals.
 
 ## The environmental angle
 

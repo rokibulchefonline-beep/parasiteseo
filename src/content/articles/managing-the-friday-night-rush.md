@@ -139,7 +139,7 @@ The right tools make peak service far smoother:
 - **time-slot ordering**
 - **reports** on busy periods and best sellers.
 
-[ChefOnline](https://www.chefonline.com/) offers online ordering and EPoS for UK restaurants and takeaways, with time slots, order controls and kitchen printing.
+ChefOnline offers [online ordering and EPoS for takeaways](https://www.chefonline.com/) for UK restaurants and takeaways, with time slots, order controls and kitchen printing.
 
 ## The bottom line
 

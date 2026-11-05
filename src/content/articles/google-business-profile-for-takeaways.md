@@ -122,7 +122,7 @@ Google Business Profile shows how customers find you: searches, views, calls, di
 
 ## Getting help
 
-Managing your Google Business Profile well takes a little time each week. Many restaurant owners get support from their technology provider or a marketing agency. [ChefOnline](https://www.chefonline.com/) offers digital marketing alongside its online ordering service, and [GTech Digital](https://www.gtechdigital.co.uk/) is a UK agency specialising in local SEO and digital marketing.
+Managing your Google Business Profile well takes a little time each week. Many restaurant owners get support from their technology provider or a marketing agency. ChefOnline offers [digital marketing for restaurants](https://www.chefonline.com/) alongside its online ordering service, and [GTech Digital](https://www.gtechdigital.co.uk/) is a UK agency specialising in local SEO and digital marketing.
 
 ## The bottom line
 

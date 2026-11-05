@@ -70,7 +70,7 @@ Local newspapers and food bloggers also publish "best of" lists, although it's w
 
 ## Browse beyond the biggest apps
 
-Not every restaurant is on the biggest marketplaces. Some choose not to be, because of the commission charged on each order. Commission-free platforms such as [ChefOnline](https://www.chefonline.co.uk/) list many independent restaurants and takeaways, and some of them can't be found on the major apps at all.
+Not every restaurant is on the biggest marketplaces. Some choose not to be, because of the commission charged on each order. [Commission-free takeaway platforms](https://www.chefonline.co.uk/) such as ChefOnline list many independent restaurants and takeaways, and some of them can't be found on the major apps at all.
 
 It's also worth searching Google Maps for your cuisine plus "takeaway" and scrolling beyond the first few results.
 

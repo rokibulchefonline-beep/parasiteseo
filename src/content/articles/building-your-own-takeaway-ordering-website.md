@@ -121,7 +121,7 @@ You have two main options:
 
 **Build from scratch.** This gives you complete control, but you'll need to arrange hosting, payment integration, security, updates and ongoing support, and cover the cost.
 
-**Use a specialist restaurant platform.** These provide branded ordering websites designed specifically for restaurants and takeaways. [ChefOnline](https://www.chefonline.com/), for example, offers branded ordering websites alongside apps, EPoS, printing and digital marketing, with no commission on orders.
+**Use a specialist restaurant platform.** These provide branded ordering websites designed specifically for restaurants and takeaways. ChefOnline, for example, offers [branded takeaway ordering websites](https://www.chefonline.com/) alongside apps, EPoS, printing and digital marketing, with no commission on orders.
 
 For most independent takeaways, a specialist platform is the more practical choice, leaving you free to focus on the kitchen.
 

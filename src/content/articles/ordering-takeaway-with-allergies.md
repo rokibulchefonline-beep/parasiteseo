@@ -68,7 +68,7 @@ If staff aren't sure, or can't give clear answers, it's safest not to order.
 
 ## Use order notes, then call
 
-Most online ordering platforms, including [ChefOnline](https://www.chefonline.co.uk/), let you add notes to your order. Notes are useful for recording your allergy, but they can be missed during a busy service. For a serious allergy, it's safest to:
+Most online ordering platforms, including [the ChefOnline website](https://www.chefonline.co.uk/), let you add notes to your order. Notes are useful for recording your allergy, but they can be missed during a busy service. For a serious allergy, it's safest to:
 
 1. Check the allergen information on the online menu.
 2. Add a clear note to the order.

@@ -92,4 +92,4 @@ Many restaurants also have **house specials** that never make the standard list:
 
 ## Try something new
 
-Next time you order from a local restaurant on [ChefOnline](https://www.chefonline.co.uk/), try swapping your usual order for something from a different part of the menu, or ask the restaurant what the chef recommends. You may find a new favourite.
+Next time you order from a local restaurant through [ChefOnline](https://www.chefonline.co.uk/), try swapping your usual order for something from a different part of the menu, or ask the restaurant what the chef recommends. You may find a new favourite.

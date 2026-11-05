@@ -102,7 +102,7 @@ Common fixes include:
 - **orders sent directly to the kitchen** rather than re-typed
 - **better packaging** for dishes that travel badly.
 
-Integrated ordering and EPoS systems, such as those from [ChefOnline](https://www.chefonline.com/), help reduce errors by sending online orders straight to the kitchen.
+Integrated ordering and EPoS systems, such as [ChefOnline's restaurant EPoS](https://www.chefonline.com/), help reduce errors by sending online orders straight to the kitchen.
 
 ## Encourage more genuine reviews
 

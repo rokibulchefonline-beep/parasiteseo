@@ -67,7 +67,7 @@ UK food businesses must be able to tell you which of the 14 major allergens are 
 
 Large orders take longer to prepare. Ordering ahead, or choosing a scheduled time slot, helps the kitchen and means everything arrives together and hot. On Friday and Saturday evenings, ordering an hour ahead is sensible.
 
-Platforms such as [ChefOnline](https://www.chefonline.co.uk/) let you order from local restaurants on the web or through the ChefOnline app, and add notes about allergies or special requests.
+Platforms such as ChefOnline let you [order from local restaurants](https://www.chefonline.co.uk/) on the web or through the ChefOnline app, and add notes about allergies or special requests.
 
 ## Collection can be quicker
 

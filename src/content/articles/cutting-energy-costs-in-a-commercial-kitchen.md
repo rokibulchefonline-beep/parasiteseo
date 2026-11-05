@@ -102,7 +102,7 @@ Compare monthly bills and meter readings with the same month last year. Track th
 
 ## Linking efficiency to operations
 
-Better planning also saves energy. Knowing your busy and quiet times lets you plan when to fire up equipment and how much to prep. Sales reports from an integrated EPoS and online ordering system, such as [ChefOnline](https://www.chefonline.com/), show your peak times by day and hour, helping you match kitchen activity to demand.
+Better planning also saves energy. Knowing your busy and quiet times lets you plan when to fire up equipment and how much to prep. Sales reports from an integrated EPoS and online ordering system, such as [ChefOnline's EPoS and ordering platform](https://www.chefonline.com/), show your peak times by day and hour, helping you match kitchen activity to demand.
 
 ## The bottom line
 

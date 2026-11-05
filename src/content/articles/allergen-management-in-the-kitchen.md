@@ -89,7 +89,7 @@ Your online ordering system should:
 - allow customers to add **allergy notes**
 - print those notes clearly on kitchen tickets.
 
-Encourage customers with serious allergies to phone the restaurant as well, so a manager can confirm what's safe. Ordering platforms such as [ChefOnline](https://www.chefonline.com/) let restaurants manage allergen information on their online menus and pass order notes straight to the kitchen printer.
+Encourage customers with serious allergies to phone the restaurant as well, so a manager can confirm what's safe. A [restaurant online ordering system](https://www.chefonline.com/) such as ChefOnline lets restaurants manage allergen information on their online menus and pass order notes straight to the kitchen printer.
 
 ## Step 7: Label allergy orders at packing
 

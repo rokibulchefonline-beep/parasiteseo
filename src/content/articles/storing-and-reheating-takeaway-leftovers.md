@@ -103,7 +103,7 @@ The easiest way to deal with leftovers is to have fewer of them:
 - **ask about portion sizes** when trying a new restaurant
 - **use rice and bread as a guide**: about one portion of rice between two people is often enough with breads.
 
-When ordering from local restaurants on [ChefOnline](https://www.chefonline.co.uk/), you can add notes to your order or ask the restaurant for advice on portions, especially for large group orders.
+When you [order a takeaway online](https://www.chefonline.co.uk/) through ChefOnline, you can add notes to your order or ask the restaurant for advice on portions, especially for large group orders.
 
 ## Turning leftovers into new meals
 

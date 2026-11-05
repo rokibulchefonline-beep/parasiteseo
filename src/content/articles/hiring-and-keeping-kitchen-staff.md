@@ -103,7 +103,7 @@ Good systems reduce stress for your team:
 - **realistic order times** on busy nights
 - **well-maintained equipment**.
 
-Integrated online ordering and EPoS systems, such as those from [ChefOnline](https://www.chefonline.com/), help by sending orders directly to the kitchen and showing busy periods, so you can plan staffing.
+Integrated online ordering and EPoS systems, such as those from [chefonline.com](https://www.chefonline.com/), help by sending orders directly to the kitchen and showing busy periods, so you can plan staffing.
 
 ## Part 5: Plan your staffing
 
