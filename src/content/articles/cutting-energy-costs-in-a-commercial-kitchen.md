@@ -7,7 +7,7 @@ tags: [energy costs, restaurant profit, kitchen management, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "stove"
 cover: "../../assets/covers/cutting-energy-costs-in-a-commercial-kitchen.jpg"
-coverAlt: "Free gas stove photo"
+coverAlt: "A blue gas flame on a cooker burner"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

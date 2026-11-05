@@ -7,7 +7,7 @@ tags: [promotions, restaurant marketing, takeaway business, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "pizza"
 cover: "../../assets/covers/promotions-that-make-money.jpg"
-coverAlt: "Delicious homemade pizza, Italian food"
+coverAlt: "A pizza topped with tomato, garlic and basil"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

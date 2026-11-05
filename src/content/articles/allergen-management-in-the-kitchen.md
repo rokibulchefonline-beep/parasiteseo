@@ -7,7 +7,7 @@ tags: [allergens, food safety, compliance, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "spices"
 cover: "../../assets/covers/allergen-management-in-the-kitchen.jpg"
-coverAlt: "Free spice market image"
+coverAlt: "Labelled piles of spices on a market stall"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

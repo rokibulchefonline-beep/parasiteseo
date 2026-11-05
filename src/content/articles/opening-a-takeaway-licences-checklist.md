@@ -5,10 +5,7 @@ category: business
 publishDate: 2026-11-05
 tags: [opening a restaurant, licensing, takeaway business, ChefOnline]
 partner: "ChefOnline"
-imageQuery: "shop sign"
-cover: "../../assets/covers/opening-a-takeaway-licences-checklist.jpg"
-coverAlt: "Shop sign closed message"
-coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
+imageQuery: "open sign"
 ---
 
 Opening a takeaway is exciting, but before you serve your first customer there's a list of registrations, licences and legal checks to get through. Missing one can mean fines, delays or even being forced to close. This checklist covers the main requirements in England, with notes on where the rest of the UK differs. Requirements vary by council, so always check with your local authority.

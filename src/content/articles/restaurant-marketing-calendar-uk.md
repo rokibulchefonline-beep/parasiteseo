@@ -7,7 +7,7 @@ tags: [restaurant marketing, promotions, planning, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "calendar"
 cover: "../../assets/covers/restaurant-marketing-calendar-uk.jpg"
-coverAlt: "open calendar short notes scribbled"
+coverAlt: "An open diary showing a monthly calendar"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
