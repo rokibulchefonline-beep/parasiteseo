@@ -7,7 +7,7 @@ tags: [food waste, restaurant profit, kitchen management, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "chef chopping vegetables"
 cover: "../../assets/covers/reducing-food-waste-in-a-takeaway-kitchen.jpg"
-coverAlt: "Free woman slicing red bell"
+coverAlt: "Chopping a red pepper on a wooden board"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

@@ -7,7 +7,7 @@ tags: [recruitment, staff, hospitality, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "chefs kitchen team"
 cover: "../../assets/covers/hiring-and-keeping-kitchen-staff.jpg"
-coverAlt: "Fort Drum Culinary Competition Team"
+coverAlt: "Two chefs working in a professional kitchen"
 coverCredit: "Photo: U.S. Army / rawpixel (CC0 1.0)"
 ---
 

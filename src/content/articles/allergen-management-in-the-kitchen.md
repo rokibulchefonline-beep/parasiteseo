@@ -5,7 +5,7 @@ category: business
 publishDate: 2026-11-05
 tags: [allergens, food safety, compliance, ChefOnline]
 partner: "ChefOnline"
-imageQuery: "kitchen ingredients spices"
+imageQuery: "spices"
 ---
 
 For customers with food allergies, a mistake can be life-threatening. For restaurants, getting allergens wrong can lead to serious harm, prosecution and lasting damage to your reputation. Good allergen management protects your customers and your business. Here's a practical approach.
