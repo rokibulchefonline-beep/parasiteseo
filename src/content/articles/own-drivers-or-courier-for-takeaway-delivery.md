@@ -7,7 +7,7 @@ tags: [delivery, takeaway business, operations, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "delivery"
 cover: "../../assets/covers/own-drivers-or-courier-for-takeaway-delivery.jpg"
-coverAlt: "Grab food delivery man. 30"
+coverAlt: "A food delivery rider on a scooter"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 

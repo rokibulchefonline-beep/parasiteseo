@@ -5,7 +5,7 @@ category: business
 publishDate: 2026-11-05
 tags: [menu pricing, restaurant profit, takeaway business, ChefOnline]
 partner: "ChefOnline"
-imageQuery: "coins"
+imageQuery: "receipt"
 ---
 
 Ingredients, energy, rent, packaging and wages have all risen for UK restaurants and takeaways in recent years. Many owners delay raising prices for fear of losing customers, and end up working harder for less. Pricing doesn't have to be guesswork. Here's a practical approach.

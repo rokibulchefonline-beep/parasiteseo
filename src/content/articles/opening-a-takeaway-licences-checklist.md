@@ -7,7 +7,7 @@ tags: [opening a restaurant, licensing, takeaway business, ChefOnline]
 partner: "ChefOnline"
 imageQuery: "open sign"
 cover: "../../assets/covers/opening-a-takeaway-licences-checklist.jpg"
-coverAlt: "Free open sign image"
+coverAlt: "A \"Come in, we're open\" sign on a shop door"
 coverCredit: "Photo: Unknown / rawpixel (CC0 1.0)"
 ---
 
